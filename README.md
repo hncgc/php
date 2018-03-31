@@ -4,8 +4,7 @@ php资源
 Laravel
 ---
 
-Laravel 5.6 版本正式发布
-http://www.golaravel.com/post/laravel-5-6-is-now-released/
+[Laravel 5.6 版本正式发布](http://www.golaravel.com/post/laravel-5-6-is-now-released/)  
 
 [Laravel学院](http://laravelacademy.org/)  
 
@@ -17,7 +16,15 @@ http://www.golaravel.com/post/laravel-5-6-is-now-released/
 
 [Laravel Homestead](https://laravel-china.org/docs/laravel/5.1/homestead)  
 
+
+
+[Homestead 安装需要知道的一些信息]()  
+
+[Homestead 2.0 安装笔记](https://laravel-china.org/topics/491/homestead-2-installation-notes)  
+
 [Laravel 安装指南](https://docs.golaravel.com/docs/5.0/installation/)  
+
+
 
 [Laravel 5.1 LTS 速查表](https://cs.laravel-china.org/)  
 
