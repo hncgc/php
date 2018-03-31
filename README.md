@@ -27,7 +27,7 @@ http://www.golaravel.com/post/laravel-5-6-is-now-released/
 
 [《Laravel 进阶课程 - 从零开始构建论坛系统》](https://laravel-china.org/topics/6592/laravel-tutorial-series-book-second-web-developer-combat-advanced-began-to-build-the-forum-system-from-zero)  
 
-[《Laravel 教程实战高级 - 构架 API 服务器》]（https://laravel-china.org/topics/7657/laravel-tutorial-series-third-the-first-edition-of-the-laravel-tutorial-advanced-architecture-api-server）  
+[《Laravel 教程实战高级 - 构架 API 服务器》](https://laravel-china.org/topics/7657/laravel-tutorial-series-third-the-first-edition-of-the-laravel-tutorial-advanced-architecture-api-server)  
 
 --------------------------------------------------------------
 
