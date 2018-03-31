@@ -48,6 +48,8 @@ https://github.com/summerblue/phphub
 https://github.com/summerblue/phphub5  
 
 
+[PHP Laravel Vue.js 视频教程](https://www.codecasts.com/)  
+
 
 [中国全量镜像](https://pkg.phpcomposer.com/)  
 
