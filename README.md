@@ -21,8 +21,6 @@ http://www.golaravel.com/post/laravel-5-6-is-now-released/
 
 [Laravel 5.1 LTS 速查表](https://cs.laravel-china.org/)  
 
-[PHP 标准规范中文版](https://psr.phphub.org/)  
-
 [《Laravel 入门教程 - 从零到部署上线》](https://laravel-china.org/topics/3383/laravel-the-first-chinese-new-book-laravel-tutorial)  
 
 [《Laravel 进阶课程 - 从零开始构建论坛系统》](https://laravel-china.org/topics/6592/laravel-tutorial-series-book-second-web-developer-combat-advanced-began-to-build-the-forum-system-from-zero)  
@@ -51,7 +49,10 @@ https://lvwenhan.com/laravel/432.html
 https://github.com/golaravel/laravel-versions
 
 
-[PHP必读](https://laravel-china.github.io/php-the-right-way/) 
+[PHP 标准规范中文版](https://psr.phphub.org/)  
+
+[PHP必读](https://laravel-china.github.io/php-the-right-way/)  
+
 
 [使用命名空间：别名/导入](http://php.net/manual/zh/language.namespaces.importing.php)  
 
