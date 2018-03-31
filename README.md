@@ -23,7 +23,10 @@ Yii最有效率PHP框架之一
 ```
 
 [为什么 Laravel 5 这么好一个框架，国人都不去用？](https://www.zhihu.com/question/30622752)  
-https://github.com/summerblue/phphub
+https://github.com/summerblue/phphub  
+https://github.com/summerblue/phphub5  
+
+[Laravel Homestead](https://laravel-china.org/docs/laravel/5.1/homestead)  
 
 中国全量镜像
 https://pkg.phpcomposer.com/
