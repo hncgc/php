@@ -15,6 +15,14 @@ http://www.golaravel.com/post/laravel-5-6-is-now-released/
 
 [Laravel Cchina社区](https://laravel-china.org/)
 
+[Laravel Homestead](https://laravel-china.org/docs/laravel/5.1/homestead)  
+
+[Laravel 安装指南](https://docs.golaravel.com/docs/5.0/installation/)  
+
+
+
+--------------------------------------------------------------
+
 [Swoole-PHP高级Web开发框架](http://www.imooc.com/topic/phpframe?mc_marking=61a66083a0886828f2b6d3ccad93756f&mc_channel=bdphpkj)  
 ```
 Laravel-简洁、优雅的PHP 框架
@@ -26,10 +34,9 @@ Yii最有效率PHP框架之一
 https://github.com/summerblue/phphub  
 https://github.com/summerblue/phphub5  
 
-[Laravel Homestead](https://laravel-china.org/docs/laravel/5.1/homestead)  
 
-中国全量镜像
-https://pkg.phpcomposer.com/
+
+[中国全量镜像](https://pkg.phpcomposer.com/)  
 
 [Laravel 5 系列入门教程（一）](http://www.golaravel.com/post/laravel-5-getting-started-part-1/)  
 https://lvwenhan.com/laravel/432.html  
