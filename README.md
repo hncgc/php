@@ -88,7 +88,8 @@ Laragon 具备以下优秀的特性：
 - 轻松创建框架应用，如 Laravel、Symfony、WordPress、Joomla 等
 - 基于自己的需求为不同的环境设置不同的配置
 ```
-下载 Laragon：https://sourceforge.net/projects/laragon/
+下载 Laragon：https://sourceforge.net/projects/laragon/  
+> Powerful tool for modern apps: Django, Rails, Laravel, Node, Go, Java  
 
 --------
 
