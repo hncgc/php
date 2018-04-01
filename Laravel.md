@@ -19,15 +19,6 @@ Laravel
 
 [Laravel 安装指南](https://docs.golaravel.com/docs/5.0/installation/)  
 
-[PhpStorm 2017.3.6 (强大的PHP开发环境) 附注册方法](http://www.oyksoft.com/soft/40722.html?pc=1)  
-```
-phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
-注册时选择“License server”输入 
-点击“OK”快速激活JetBrains系列产品
-直接用浏览器打开 http://idea.lanyus.com/ ，点击页面中的“获得注册码”，然后在注册时切换至Activation Code选项，输入获得的注册码一长串字符串，便可以注册成功了！（推荐用这种方式）
-注册码有效期为2017年10月15日至2018年10月14日
-使用前请将“0.0.0.0 account.jetbrains.com”添加到hosts文件中
-```
 
 [Laravel 5.1 LTS 速查表](https://cs.laravel-china.org/)  
 
