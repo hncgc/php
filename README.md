@@ -77,7 +77,18 @@ Laragon
 
 [Laragon ：推荐的 Windows Laravel 集成环境](https://zhuanlan.zhihu.com/p/27924430)  
 
+[Laravel-Laragon学院](http://laravelacademy.org/tags/laragon)  
 
+[[ Laravel 5.5 文档 ] 快速入门 —— 使用 Laragon 在 Windows 中搭建 Laravel 开发环境](http://laravelacademy.org/post/7754.html)  
+```
+Laragon 具备以下优秀的特性：
+- 自动创建虚拟主机（Virtual Host，Valet 也有这样的功能）
+- 邮件接收和发送
+- 非常方便地切换 PHP、Apache、MySQL 的不同版本
+- 轻松创建框架应用，如 Laravel、Symfony、WordPress、Joomla 等
+- 基于自己的需求为不同的环境设置不同的配置
+```
+下载 Laragon：https://sourceforge.net/projects/laragon/
 
 --------
 
