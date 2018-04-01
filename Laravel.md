@@ -48,14 +48,6 @@ https://github.com/summerblue/phphub5
 
 ------
 
-php包管理工具Composer
----
-Composer  
-https://getcomposer.org  
-https://packagist.org  
-
-[中国全量镜像](https://pkg.phpcomposer.com/)  
-
 [Laravel 5 系列入门教程（一）](http://www.golaravel.com/post/laravel-5-getting-started-part-1/)  
 https://lvwenhan.com/laravel/432.html  
 https://github.com/golaravel/laravel-versions
