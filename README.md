@@ -23,12 +23,44 @@ phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
 注册码有效期为2017年10月15日至2018年10月14日
 使用前请将“0.0.0.0 account.jetbrains.com”添加到hosts文件中
 ```
+
+[超详细搭建PhpStorm+PhpStudy开发环境](https://blog.csdn.net/u012861467/article/details/54692236)  
+
+[开源社区PhpStorm](https://www.oschina.net/question/tag/phpstorm?nocache=1522600213819)  
+
 [打造漂亮的 PhpStorm 界面](https://laravel-china.org/articles/4172/create-beautiful-phpstorm-interface)  
 
+[jetbrains 系列开发工具 color scheme 配色方案自定义配置](https://blog.csdn.net/baidu_16051437/article/details/51142500)  
 
-超详细搭建PhpStorm+PhpStudy开发环境
-https://blog.csdn.net/u012861467/article/details/54692236
+[PhpStorm color-scheme配色方案主题](https://github.com/holoto/color-scheme)  
 
+[如何优雅的使用 phpStorm 开发工具](https://lattecake.com/post/20075)  
+
+[超详细搭建PhpStorm+PhpStudy开发环境](https://blog.csdn.net/u012861467/article/details/54692236)  
+
+[优雅地安装、优化64位的PhpStorm，对卡顿问题说再见](http://www.lcgod.com/atc_36)  
+
+[phpstorm 有哪些奇技淫巧？)(https://www.zhihu.com/question/29025752)  
+
+[PhpStorm中如何使用database工具，详细操作方法](https://blog.csdn.net/knight_quan/article/details/51983029)  
+
+[PhpStorm中如何使用Xdebug工具，入门级操作方法](https://blog.csdn.net/knight_quan/article/details/51953269)  
+
+[Phpstorm 2017.1+PHPWAMP+Xdebug环境配置以及断点调试](https://blog.csdn.net/WillCold/article/details/68068090)  
+
+[PhpStorm中如何使用FTP功能 详细操作方法](https://blog.csdn.net/knight_quan/article/details/51910102)  
+
+[PhpStorm中如何配置SVN，详细操作方法](https://blog.csdn.net/knight_quan/article/details/51889476)  
+
+[PhpStorm技巧](http://phpstorm.tips/tips)  
+
+现在如果你是win系统，想学laravel，我觉得你裸机只需要装两样东西，laragon+phpstorm，三分钟内开始一个laravel项目~
+
+[阿北的知识分享](https://nai8.me/)  
+
+[Composer速查表](https://nai8.me/composer/index.html)  
+
+[Yii2速查表（中文版）](https://nai8.me/tool-sc.html)  
 
 
 
