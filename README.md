@@ -54,11 +54,32 @@ phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
 
 [PhpStorm技巧](http://phpstorm.tips/tips)  
 
-现在如果你是win系统，想学laravel，我觉得你裸机只需要装两样东西，laragon+phpstorm，三分钟内开始一个laravel项目~
-
 [阿北的知识分享](https://nai8.me/)  
 
+-------------
+
+Composer
+---
+
 [Composer速查表](https://nai8.me/composer/index.html)  
+
+
+
+--------
+
+Laragon
+---
+
+> 现在如果你是win系统，想学laravel，我觉得你裸机只需要装两样东西，laragon+phpstorm，三分钟内开始一个laravel项目~
+
+[Laragon ：推荐的 Windows Laravel 集成环境](https://zhuanlan.zhihu.com/p/27924430)  
+
+
+
+--------
+
+yii2
+---
 
 [Yii2速查表（中文版）](https://nai8.me/tool-sc.html)  
 
