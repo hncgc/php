@@ -90,6 +90,26 @@ Laragon 具备以下优秀的特性：
 ```
 下载 Laragon：https://sourceforge.net/projects/laragon/  
 > Powerful tool for modern apps: Django, Rails, Laravel, Node, Go, Java  
+laragon-wamp.exe
+https://jaist.dl.sourceforge.net/project/laragon/releases/3.1/laragon-wamp.exe
+共 115 MB
+
+[Laragon，简单便携迅速的WAMP工具，Laravel一站式创建和运行](http://www.prefershare.com/laragon-wamp-laravel)  
+
+[laragon环境更新安装新的php版本操作方法](https://blog.csdn.net/hj960511/article/details/51693225)  
+
+[laravel简单的laragon环境搭建不需要composer一键集成](https://blog.csdn.net/hj960511/article/details/51441990)  
+
+--------
+
+Redis
+---
+
+[Redis 教程 | 菜鸟教程](http://www.runoob.com/redis/redis-tutorial.html)  
+
+[Redis中文网](http://www.redis.cn/)  
+
+[PHP-redis中文文档](http://bbs.redis.cn/forum.php?mod=viewthread&tid=481)  
 
 --------
 
