@@ -40,7 +40,7 @@ phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
 
 [优雅地安装、优化64位的PhpStorm，对卡顿问题说再见](http://www.lcgod.com/atc_36)  
 
-[phpstorm 有哪些奇技淫巧？)(https://www.zhihu.com/question/29025752)  
+[phpstorm 有哪些奇技淫巧？](https://www.zhihu.com/question/29025752)  
 
 [PhpStorm中如何使用database工具，详细操作方法](https://blog.csdn.net/knight_quan/article/details/51983029)  
 
