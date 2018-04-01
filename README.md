@@ -100,6 +100,9 @@ https://jaist.dl.sourceforge.net/project/laragon/releases/3.1/laragon-wamp.exe
 
 [laravel简单的laragon环境搭建不需要composer一键集成](https://blog.csdn.net/hj960511/article/details/51441990)  
 
+
+[Laragon 让你在 Windows 下愉快的编码](https://laravel-china.org/articles/3994/laragon-allows-you-to-happy-coding-under-windows)  
+
 --------
 
 Redis
