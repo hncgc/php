@@ -58,12 +58,15 @@ phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
 
 -------------
 
-Composer
+php包管理工具Composer
 ---
+Composer  
+https://getcomposer.org  
+https://packagist.org  
+
+[中国全量镜像](https://pkg.phpcomposer.com/)  
 
 [Composer速查表](https://nai8.me/composer/index.html)  
-
-
 
 --------
 
