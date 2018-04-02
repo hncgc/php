@@ -78,7 +78,7 @@ http://localhost/laravelapp/server.php
 C:\laragon\www\laravelapp\composer.json
 ```
 
-[pLaravel项目目录结构说明](http://www.mamicode.com/info-detail-1669639.html)  
+[Laravel项目目录结构说明](http://www.mamicode.com/info-detail-1669639.html)  
 ```
 laravel中文手册：https://cs.laravel-china.org/  
 PHP 标准规范中文版: https://psr.phphub.org/  
