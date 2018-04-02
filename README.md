@@ -3,6 +3,10 @@ php资源
 
 [Laravel](https://github.com/hncgc/php/blob/master/Laravel.md)  
 
+[Ubuntu](https://github.com/hncgc/php/blob/master/Ubuntu.md)  
+
+[PhpStorm](https://github.com/hncgc/php/blob/master/PhpStorm.md)  
+
 [PHP 标准规范中文版](https://psr.phphub.org/)  
 
 [PHP必读](https://laravel-china.github.io/php-the-right-way/)  
@@ -11,50 +15,6 @@ php资源
 
 [命名空间概述](http://php.net/manual/zh/language.namespaces.rationale.php)  
 
-PhpStorm
----
-
-[PhpStorm 2017.3.6 (强大的PHP开发环境) 附注册方法](http://www.oyksoft.com/soft/40722.html?pc=1)  
-```
-phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
-注册时选择“License server”输入 
-点击“OK”快速激活JetBrains系列产品
-直接用浏览器打开 http://idea.lanyus.com/ ，点击页面中的“获得注册码”，然后在注册时切换至Activation Code选项，输入获得的注册码一长串字符串，便可以注册成功了！（推荐用这种方式）
-注册码有效期为2017年10月15日至2018年10月14日
-使用前请将“0.0.0.0 account.jetbrains.com”添加到hosts文件中
-```
-
-[超详细搭建PhpStorm+PhpStudy开发环境](https://blog.csdn.net/u012861467/article/details/54692236)  
-
-[开源社区PhpStorm](https://www.oschina.net/question/tag/phpstorm?nocache=1522600213819)  
-
-[打造漂亮的 PhpStorm 界面](https://laravel-china.org/articles/4172/create-beautiful-phpstorm-interface)  
-
-[jetbrains 系列开发工具 color scheme 配色方案自定义配置](https://blog.csdn.net/baidu_16051437/article/details/51142500)  
-
-[PhpStorm color-scheme配色方案主题](https://github.com/holoto/color-scheme)  
-
-[如何优雅的使用 phpStorm 开发工具](https://lattecake.com/post/20075)  
-
-[超详细搭建PhpStorm+PhpStudy开发环境](https://blog.csdn.net/u012861467/article/details/54692236)  
-
-[优雅地安装、优化64位的PhpStorm，对卡顿问题说再见](http://www.lcgod.com/atc_36)  
-
-[phpstorm 有哪些奇技淫巧？](https://www.zhihu.com/question/29025752)  
-
-[PhpStorm中如何使用database工具，详细操作方法](https://blog.csdn.net/knight_quan/article/details/51983029)  
-
-[PhpStorm中如何使用Xdebug工具，入门级操作方法](https://blog.csdn.net/knight_quan/article/details/51953269)  
-
-[Phpstorm 2017.1+PHPWAMP+Xdebug环境配置以及断点调试](https://blog.csdn.net/WillCold/article/details/68068090)  
-
-[PhpStorm中如何使用FTP功能 详细操作方法](https://blog.csdn.net/knight_quan/article/details/51910102)  
-
-[PhpStorm中如何配置SVN，详细操作方法](https://blog.csdn.net/knight_quan/article/details/51889476)  
-
-[PhpStorm技巧](http://phpstorm.tips/tips)  
-
-[阿北的知识分享](https://nai8.me/)  
 
 -----------------------
 
@@ -189,42 +149,6 @@ Mac - laravel使用 -- Homestead环境搭建【VPN】
 https://www.jianshu.com/p/b7ad926b326a
 
 ------------------
-
-Ubuntu
----
-
-[网易开源镜像站](http://mirrors.163.com/)  
-
-[Ubuntu镜像使用帮助](http://mirrors.163.com/.help/ubuntu.html)  
-```
-官方主页: http://www.ubuntu.com/
-邮件列表: http://www.ubuntu.com/support/community/mailinglists
-论坛: http://ubuntuforums.org/
-中文论坛: http://forum.ubuntu.org.cn/
-Wiki: https://wiki.ubuntu.com/
-文档: https://help.ubuntu.com/
-```
-[Linux 中文社区 Ubuntu](https://www.linuxidc.com/topicnews.aspx?tid=2)  
-
-[Ubuntu](https://baike.baidu.com/item/ubuntu/155795?fr=aladdin)  
-
-[Ubuntu 中文](http://wiki.ubuntu.org.cn/)  
-
-[Ubuntu 16.04 安装基础入门教程](https://jingyan.baidu.com/article/3c48dd348bc005e10be358eb.html)  
-
-[ubuntu-16.04 详细安装教程（图文）附下载地址](https://blog.csdn.net/wyx100/article/details/51582617)  
-
-[Win7系统下安装Ubuntu14.04超级详细图文教程](https://blog.csdn.net/yangshuo__0619/article/details/71946282)  
-
-[先装ubuntu14.04再装windows7简单步骤（很简单）](https://blog.csdn.net/pyf09/article/details/54343844)  
-
-[光盘和U盘安装win7和ubuntu14.04全步骤](https://blog.csdn.net/h3243212/article/details/50538608)  
-
-[VMware Workstation12安装Ubuntu 16.04和VMware Tools教程](https://www.linuxidc.com/Linux/2016-11/137241.htm)  
-
-[下载Ubuntu](https://cn.ubuntu.com/download/)  
-
-[VMware Workstation12安装Ubuntu 16.04和VMware Tools教程](https://www.linuxidc.com/Linux/2016-11/137241p2.htm)  
 
 ----------------------
 
