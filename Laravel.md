@@ -54,15 +54,14 @@ https://github.com/golaravel/laravel-versions
 
 
 [Laravel 创建项目步骤](https://www.jianshu.com/p/388f0e79b4a5)  
-> 通过克隆GitHub仓库到本地来安装：
-> https://github.com/laravel/quickstart-basic
+> 通过克隆GitHub仓库到本地来安装：  
+> https://github.com/laravel/quickstart-basic  
 ```
 git clone https://github.com/laravel/quickstart-basic quickstart
 cd quickstart
 composer install
 php artisan migrate
 ```
-使用composer新建一个laravel项目
-https://blog.csdn.net/qiqiaiairen/article/details/51233703
+[使用composer新建一个laravel项目](https://blog.csdn.net/qiqiaiairen/article/details/51233703)  
 
 
