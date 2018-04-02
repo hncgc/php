@@ -1,11 +1,18 @@
 # php
-php资源
+
+## php资源
 
 [Laravel](https://github.com/hncgc/php/blob/master/Laravel.md)  
 
 [Ubuntu](https://github.com/hncgc/php/blob/master/Ubuntu.md)  
 
 [PhpStorm](https://github.com/hncgc/php/blob/master/PhpStorm.md)  
+
+[Laragon](https://github.com/hncgc/php/blob/master/Laragon.md)  
+
+[Composer](https://github.com/hncgc/php/blob/master/Composer.md)  
+
+-------------------
 
 [PHP 标准规范中文版](https://psr.phphub.org/)  
 
@@ -15,129 +22,7 @@ php资源
 
 [命名空间概述](http://php.net/manual/zh/language.namespaces.rationale.php)  
 
-
------------------------
-
-Laragon
----
-
-> 现在如果你是win系统，想学laravel，我觉得你裸机只需要装两样东西，laragon+phpstorm，三分钟内开始一个laravel项目~
-
-[Laragon ：推荐的 Windows Laravel 集成环境](https://zhuanlan.zhihu.com/p/27924430)  
-
-[Laravel-Laragon学院](http://laravelacademy.org/tags/laragon)  
-
-[[ Laravel 5.5 文档 ] 快速入门 —— 使用 Laragon 在 Windows 中搭建 Laravel 开发环境](http://laravelacademy.org/post/7754.html)  
-```
-Laragon 具备以下优秀的特性：
-- 自动创建虚拟主机（Virtual Host，Valet 也有这样的功能）
-- 邮件接收和发送
-- 非常方便地切换 PHP、Apache、MySQL 的不同版本
-- 轻松创建框架应用，如 Laravel、Symfony、WordPress、Joomla 等
-- 基于自己的需求为不同的环境设置不同的配置
-```
-下载 Laragon：https://sourceforge.net/projects/laragon/  
-> Powerful tool for modern apps: Django, Rails, Laravel, Node, Go, Java  
-laragon-wamp.exe
-https://jaist.dl.sourceforge.net/project/laragon/releases/3.1/laragon-wamp.exe
-共 115 MB
-
-
-[Laragon的中文官网下载](http://www.laragon.com.cn/laragon-china/)  
-
-[Laragon，简单便携迅速的WAMP工具，Laravel一站式创建和运行](http://www.prefershare.com/laragon-wamp-laravel)  
-
-[laragon环境更新安装新的php版本操作方法](https://blog.csdn.net/hj960511/article/details/51693225)  
-
-[laravel简单的laragon环境搭建不需要composer一键集成](https://blog.csdn.net/hj960511/article/details/51441990)  
-
-
-[Laragon 让你在 Windows 下愉快的编码](https://laravel-china.org/articles/3994/laragon-allows-you-to-happy-coding-under-windows)  
-
-[laravel开发神器laragon的使用方法](http://www.wangjingxian.cn/laravel/52.html)  
-
-laragon官方网站: https://laragon.org/
-
-laragon的中文官网: http://www.laragon.com.cn/
-
-laragon社区: http://forum.laragon.org/
-
-[Laravel](http://www.wangjingxian.cn/category/16)  
-
-[敬贤博客](http://www.wangjingxian.cn/)  
-
 -------------
-
-php包管理工具Composer
----
-Composer  
-https://getcomposer.org  
-https://packagist.org  
-
-[中国全量镜像](https://pkg.phpcomposer.com/)  
-
-[Composer速查表](https://nai8.me/composer/index.html)  
-
-
-[Composer 中文网 / Packagist 中国全量镜像](https://www.phpcomposer.com/)  
-
-[Composer 中文文档](http://docs.phpcomposer.com/00-intro.html)  
-https://github.com/5-say/composer-doc-cn  
-
-[Composer  中文文档 - 简介](http://docs.phpcomposer.com/00-intro.html)  
-
-```
-下载 Composer 的可执行文件
-php -r "readfile('https://getcomposer.org/installer');" | php
-
-C:\laragon\www
-λ php -r "readfile('https://getcomposer.org/installer');" | php
-All settings correct for using Composer
-Downloading...
-
-Composer (version 1.6.3) successfully installed to: C:\laragon\www\composer.phar
-Use it: php composer.phar
-
-
-C:\laragon\www
-λ
-
-
-C:\laragon\www\composer.phar      1819KB
-
-安装Laragon时已安装
-C:\laragon\bin\composer\composer.phar 1,794KB
-
-C:\laragon\www  
-λ composer -v   
-   ______                                           
-  / ____/___  ____ ___  ____  ____  ________  _____ 
- / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/ 
-/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /     
-\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/      
-                    /_/                             
-Composer version 1.4.1 2017-03-10 09:29:45          
-
-安装 - Windows
-使用安装程序
-这是将 Composer 安装在你机器上的最简单的方法。
-下载并且运行 Composer-Setup.exe，它将安装最新版本的 Composer ，并设置好系统的环境变量，因此你可以在任何目录下直接使用 composer 命令。
-
-C:\laragon\bin\composer\composer.bat
-@ECHO OFF
-php "%~dp0composer.phar" %*
-
-php composer.phar
-```
-
-[Composer  中文文档 - 基本用法](http://docs.phpcomposer.com/01-basic-usage.html)  
-
-[PHP 开发者该知道的 5 个 Composer 小技巧](https://www.phpcomposer.com/5-features-to-know-about-composer-php/)  
-
-[使用composer新建一个laravel项目](https://blog.csdn.net/qiqiaiairen/article/details/51233703)  
-
---------
-
 
 Homestead
 ---------
