@@ -87,8 +87,7 @@ env环境设置类： https://github.com/vlucas/phpdotenv
 ```
 
 
-php artisan常用方法
-https://my.oschina.net/u/1186749/blog/643850
+[php artisan常用方法](https://my.oschina.net/u/1186749/blog/643850)  
 ```
 1、生成控制器
 php artisan make:controller PhotoController
@@ -97,9 +96,8 @@ php artisan make:controller PhotoController --resource
 Route::resource('photo', 'PhotoController');
 3、生成模型
 php artisan make:model User -m
-
-laravel artisan工具的使用
-https://blog.csdn.net/booljiaoyu/article/details/56011599
+```
+[laravel artisan工具的使用](https://blog.csdn.net/booljiaoyu/article/details/56011599)  
 > artisan工具是一个php文件,它放在laravel框架的根目录
 > C:\laragon\www\laravelapp\artisan
 > C:\laragon\www\laravelapp
