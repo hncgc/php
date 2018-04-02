@@ -103,6 +103,18 @@ https://jaist.dl.sourceforge.net/project/laragon/releases/3.1/laragon-wamp.exe
 
 [Laragon 让你在 Windows 下愉快的编码](https://laravel-china.org/articles/3994/laragon-allows-you-to-happy-coding-under-windows)  
 
+[laravel开发神器laragon的使用方法](http://www.wangjingxian.cn/laravel/52.html)  
+
+laragon官方网站: https://laragon.org/
+
+laragon的中文官网: http://www.laragon.com.cn/
+
+laragon社区: http://forum.laragon.org/
+
+[Laravel](http://www.wangjingxian.cn/category/16)  
+
+[敬贤博客](http://www.wangjingxian.cn/)  
+
 --------
 
 Redis
