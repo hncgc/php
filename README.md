@@ -94,6 +94,9 @@ laragon-wamp.exe
 https://jaist.dl.sourceforge.net/project/laragon/releases/3.1/laragon-wamp.exe
 共 115 MB
 
+
+[Laragon的中文官网下载](http://www.laragon.com.cn/laragon-china/)  
+
 [Laragon，简单便携迅速的WAMP工具，Laravel一站式创建和运行](http://www.prefershare.com/laragon-wamp-laravel)  
 
 [laragon环境更新安装新的php版本操作方法](https://blog.csdn.net/hj960511/article/details/51693225)  
