@@ -63,5 +63,35 @@ composer install
 php artisan migrate
 ```
 [使用composer新建一个laravel项目](https://blog.csdn.net/qiqiaiairen/article/details/51233703)  
+```
+C:\laragon\www
+λ composer create-project laravel/laravel laravelapp --prefer-dist
+
+运行
+http://localhost/laravelapp/public/index.php
+http://localhost:63342/laravelapp/public/index.php?_ijt=jnuq8a7p9afd15rjb1uq7molvi
+http://localhost/laravelapp/server.php
+
+[Laravel 框架目录结构](https://www.jianshu.com/p/909a650a240f)  
+```
+C:\laragon\www\laravelapp\composer.json
+```
+
+pLaravel项目目录结构说明](http://www.mamicode.com/info-detail-1669639.html)  
+```
+laravel中文手册：https://cs.laravel-china.org/
+PHP 标准规范中文版: https://psr.phphub.org/
+http://www.php-fig.org/
+env环境设置类： https://github.com/vlucas/phpdotenv
+```
+
+
+
+
+
+
+
+
+
 
 
