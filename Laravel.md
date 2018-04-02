@@ -51,3 +51,18 @@ https://github.com/summerblue/phphub5
 [Laravel 5 系列入门教程（一）](http://www.golaravel.com/post/laravel-5-getting-started-part-1/)  
 https://lvwenhan.com/laravel/432.html  
 https://github.com/golaravel/laravel-versions
+
+
+[Laravel 创建项目步骤](https://www.jianshu.com/p/388f0e79b4a5)  
+> 通过克隆GitHub仓库到本地来安装：
+> https://github.com/laravel/quickstart-basic
+```
+git clone https://github.com/laravel/quickstart-basic quickstart
+cd quickstart
+composer install
+php artisan migrate
+```
+使用composer新建一个laravel项目
+https://blog.csdn.net/qiqiaiairen/article/details/51233703
+
+
