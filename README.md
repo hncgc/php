@@ -119,12 +119,10 @@ https://packagist.org
 [Composer速查表](https://nai8.me/composer/index.html)  
 
 
-Composer 中文网 / Packagist 中国全量镜像
-https://www.phpcomposer.com/
+[Composer 中文网 / Packagist 中国全量镜像](https://www.phpcomposer.com/)  
 
-Composer 中文文档
-http://docs.phpcomposer.com/00-intro.html
-https://github.com/5-say/composer-doc-cn
+[Composer 中文文档](http://docs.phpcomposer.com/00-intro.html)  
+https://github.com/5-say/composer-doc-cn  
 
 [Composer  中文文档 - 简介](http://docs.phpcomposer.com/00-intro.html)  
 
@@ -174,9 +172,99 @@ php composer.phar
 
 [Composer  中文文档 - 基本用法](http://docs.phpcomposer.com/01-basic-usage.html)  
 
+[PHP 开发者该知道的 5 个 Composer 小技巧](https://www.phpcomposer.com/5-features-to-know-about-composer-php/)  
 
+[使用composer新建一个laravel项目](https://blog.csdn.net/qiqiaiairen/article/details/51233703)  
 
 --------
+
+
+Homestead
+---------
+
+laravel Homestead window安装过程
+https://www.jianshu.com/p/c57cac7ce1e8
+
+Mac - laravel使用 -- Homestead环境搭建【VPN】
+https://www.jianshu.com/p/b7ad926b326a
+
+------------------
+
+Ubuntu
+---
+
+[网易开源镜像站](http://mirrors.163.com/)  
+
+[Ubuntu镜像使用帮助](http://mirrors.163.com/.help/ubuntu.html)  
+```
+官方主页: http://www.ubuntu.com/
+邮件列表: http://www.ubuntu.com/support/community/mailinglists
+论坛: http://ubuntuforums.org/
+中文论坛: http://forum.ubuntu.org.cn/
+Wiki: https://wiki.ubuntu.com/
+文档: https://help.ubuntu.com/
+```
+[Linux 中文社区 Ubuntu](https://www.linuxidc.com/topicnews.aspx?tid=2)  
+
+[Ubuntu](https://baike.baidu.com/item/ubuntu/155795?fr=aladdin)  
+
+[Ubuntu 中文](http://wiki.ubuntu.org.cn/)  
+
+[Ubuntu 16.04 安装基础入门教程](https://jingyan.baidu.com/article/3c48dd348bc005e10be358eb.html)  
+
+[ubuntu-16.04 详细安装教程（图文）附下载地址](https://blog.csdn.net/wyx100/article/details/51582617)  
+
+[Win7系统下安装Ubuntu14.04超级详细图文教程](https://blog.csdn.net/yangshuo__0619/article/details/71946282)  
+
+[先装ubuntu14.04再装windows7简单步骤（很简单）](https://blog.csdn.net/pyf09/article/details/54343844)  
+
+[光盘和U盘安装win7和ubuntu14.04全步骤](https://blog.csdn.net/h3243212/article/details/50538608)  
+
+[VMware Workstation12安装Ubuntu 16.04和VMware Tools教程](https://www.linuxidc.com/Linux/2016-11/137241.htm)  
+
+[下载Ubuntu](https://cn.ubuntu.com/download/)  
+
+[VMware Workstation12安装Ubuntu 16.04和VMware Tools教程](https://www.linuxidc.com/Linux/2016-11/137241p2.htm)  
+
+----------------------
+
+VMware Workstation
+---
+
+```
+VMware Workstation，是一款功能强大的桌面虚拟计算机软件，提供用户可在单一的桌面上同时运行不同的操作系统，和进行开发、测试 、部署新的应用程序的最佳解决方案。
+VMware Workstation 可在一部实体机器上模拟完整的网络环境，以及可便于携带的虚拟机器，其更好的灵活性与先进的技术胜过了市面上其他的虚拟计算机软件。对于企业的 IT开发人员和系统管理员而言，VMware 在虚拟网路，实时快照，拖曳共享文件夹，支持 PXE 等方面的特点使它成为必不可少的工具
+开发商：VMware,Inc.
+软件官网： http://www.vmware.com/cn
+```
+
+[VMware Workstation 12.5.9 Pro虚拟机软件中文版](http://www.epinv.com/post/6304.html)  
+
+[VMware Workstation最新官方版下载_百度软件中心](http://rj.baidu.com/soft/detail/13808.html?ald)  
+
+[VMware Pro v14.1.1 官方版本及激活密钥](http://www.zdfans.com/5928.html)  
+```
+激活密钥
+
+VMware 2017 v14.x 永久许可证激活密钥
+FF31K-AHZD1-H8ETZ-8WWEZ-WUUVA
+CV7T2-6WY5Q-48EWP-ZXY7X-QGUWD
+```
+
+VirtualBox
+---
+
+[VirtualBox](https://baike.baidu.com/item/VirtualBox/5842786?fr=aladdin)  
+
+[VirtualBox安装部署Ubuntu 16.04 图文详解](https://www.linuxidc.com/Linux/2016-08/134580.htm)  
+
+[基于VirtualBox虚拟机安装Ubuntu图文教程](https://blog.csdn.net/u012732259/article/details/70172704)  
+
+[使用Virtualbox在Windows下安装Ubuntu系统](https://blog.csdn.net/CCSUXWZ/article/details/55805456)  
+
+[linux学习第一篇：在VirtualBox下安装linux操作系统](https://blog.csdn.net/yuchao2015/article/details/52132270)  
+
+
 
 
 --------
