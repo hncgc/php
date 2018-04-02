@@ -98,14 +98,14 @@ Route::resource('photo', 'PhotoController');
 php artisan make:model User -m
 ```
 [laravel artisan工具的使用](https://blog.csdn.net/booljiaoyu/article/details/56011599)  
-> artisan工具是一个php文件,它放在laravel框架的根目录
-> C:\laragon\www\laravelapp\artisan
-> C:\laragon\www\laravelapp
-> λ php artisan
-> Laravel Framework 5.6.15
-> 
-> Usage:
->  command [options] [arguments]
+> artisan工具是一个php文件,它放在laravel框架的根目录  
+> C:\laragon\www\laravelapp\artisan  
+> C:\laragon\www\laravelapp  
+> λ php artisan  
+> Laravel Framework 5.6.15  
+>   
+> Usage:  
+>  command [options] [arguments]  
 
 
 
