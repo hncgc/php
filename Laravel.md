@@ -136,7 +136,6 @@ mv composer.phar /usr/local/bin/composer             # 移动composer.phar 并�
 
 安装位置：C:/Users/Administrator/AppData/Roaming/Composer
 
-```
 用laraval new 创建项目
 C:\laragon\www
 λ laravel new laravel56
