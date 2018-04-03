@@ -144,7 +144,25 @@ C:\laragon\www
 λ laravel new laravel56
 ```
 
+[2. Laravel视图View和路由Route初探 - Laravel从零开始教程](https://segmentfault.com/a/1190000007442260)  
 
+[3. 视图数据View Data和Balde模版 - Laravel从零开始教程](https://segmentfault.com/a/1190000007442328)  
+
+[4. 路由到控制器 - Laravel从零开始教程](https://segmentfault.com/a/1190000007556269)  
+
+[5. Balde模版的布局文件 layout.blade.php - 从零开始学Laravel](https://segmentfault.com/a/1190000007582361)  
+
+[6. 管理你的css和js文件 - 从零开始学Laravel](https://segmentfault.com/a/1190000007582395)  
+
+[7. 从数据库获取数据- 从零开始学Laravel](https://segmentfault.com/a/1190000007596634)  
+
+[8. 使用Elequent建立表与表之间的关系](https://segmentfault.com/blog/zhoujiping)  
+
+[9. 表单 - 从零开始学Laravel](https://segmentfault.com/a/1190000007609708)  
+
+[10. 更新数据及渴求式加载Eager Loading - 从零开始学Laravel](https://segmentfault.com/a/1190000007616066)  
+
+-------
 
 
 
