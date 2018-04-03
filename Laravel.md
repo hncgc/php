@@ -72,6 +72,12 @@ http://localhost/laravelapp/public/index.php
 http://localhost:63342/laravelapp/public/index.php?_ijt=jnuq8a7p9afd15rjb1uq7molvi
 http://localhost/laravelapp/server.php
 ```
+[用Laravel创建项目](https://blog.csdn.net/xhanfei/article/details/51763617)  
+```
+用laraval new 创建项目
+C:\laragon\www
+λ laravel new laravel56
+```
 
 [Laravel 框架目录结构](https://www.jianshu.com/p/909a650a240f)  
 ```
@@ -106,6 +112,35 @@ php artisan make:model User -m
 >   
 > Usage:  
 >  command [options] [arguments]  
+
+
+
+[[ Laravel 5.2 文档 ] 基础 —— HTTP 路由](http://laravelacademy.org/post/2784.html)  
+
+[[ Laravel 5.6 文档 ] 基础组件 —— 路由](http://laravelacademy.org/post/8731.html)  
+
+[Laravel 5.6 中文文档](http://laravelacademy.org/docs/laravel-5_6)  
+http://laravelacademy.org/laravel-docs-5_6  
+
+------
+
+[从零开始学Laravel](https://segmentfault.com/blog/zhoujiping)  
+
+[1. Laravel的初始化安装 - Laravel从零开始教程](https://segmentfault.com/a/1190000007442208)  
+```
+先安装起来composer, 使用下面两条命令即可
+curl -sS https://getcomposer.org/installer | php     # 下载composer.phar
+mv composer.phar /usr/local/bin/composer             # 移动composer.phar 并更名为composer,让composer可以全局使用
+
+使用composer global require "laravel/installer" 来安装Laravel安装器了
+
+安装位置：C:/Users/Administrator/AppData/Roaming/Composer
+
+```
+用laraval new 创建项目
+C:\laragon\www
+λ laravel new laravel56
+```
 
 
 
