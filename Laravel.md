@@ -165,10 +165,23 @@ C:\laragon\www
 -------
 
 
+-------
 
+[Laravel Documentation](https://laravel.com/docs)  
 
+[Laravel Laracasts](https://laracasts.com)  
 
+[Laravel New](https://laravel-news.com)  
 
+[Laravel Forge](https://forge.laravel.com)  
+
+[aravel GitHub](https://github.com/laravel/laravel)  
+
+[Laravel ](https://github.com/laravel/framework)  
+
+[Laravel docs](https://github.com/laravel/docs)  
+
+---------------------------
 
 
 
