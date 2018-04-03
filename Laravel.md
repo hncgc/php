@@ -175,7 +175,7 @@ C:\laragon\www
 
 [Laravel Forge](https://forge.laravel.com)  
 
-[aravel GitHub](https://github.com/laravel/laravel)  
+[Laravel GitHub](https://github.com/laravel/laravel)  
 
 [Laravel ](https://github.com/laravel/framework)  
 
