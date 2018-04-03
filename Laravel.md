@@ -118,6 +118,8 @@ php artisan make:model User -m
 > Usage:  
 >  command [options] [arguments]  
 
+[PHP Laravel命令行创建](https://blog.csdn.net/u013954399/article/details/54583165)  
+
 [Laravel5.0 HTTP 路由](https://docs.golaravel.com/docs/5.0/routing/)  
 
 [laravel 5.5 -- router](https://blog.csdn.net/OneGoal/article/details/77825781)  
