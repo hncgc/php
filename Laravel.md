@@ -136,9 +136,8 @@ php artisan make:model User -m
 curl -sS https://getcomposer.org/installer | php     # 下载composer.phar
 mv composer.phar /usr/local/bin/composer             # 移动composer.phar 并更名为composer,让composer可以全局使用
 
-使用composer global require "laravel/installer" 来安装Laravel安装器了
-
-安装位置：C:/Users/Administrator/AppData/Roaming/Composer
+使用composer global require "laravel/installer" 来安装Laravel安装器了  
+安装位置：C:/Users/Administrator/AppData/Roaming/Composer  
 
 用laraval new 创建项目
 C:\laragon\www
