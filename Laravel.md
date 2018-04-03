@@ -177,7 +177,7 @@ C:\laragon\www
 
 [Laravel GitHub](https://github.com/laravel/laravel)  
 
-[Laravel ](https://github.com/laravel/framework)  
+[Laravel framework](https://github.com/laravel/framework)  
 
 [Laravel docs](https://github.com/laravel/docs)  
 
