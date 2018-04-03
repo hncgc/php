@@ -5,7 +5,12 @@ Laravel
 
 [Laravel学院](http://laravelacademy.org/)  
 
-[Laravel 5.6 中文文档](http://laravelacademy.org/laravel-docs-5_6)  
+[Laravel文档](https://docs.golaravel.com/)  
+
+[Laravel5.0文档](https://docs.golaravel.com/docs/5.0/installation/)  
+
+[Laravel 5.6 中文文档](http://laravelacademy.org/docs/laravel-5_6)  
+http://laravelacademy.org/laravel-docs-5_6  
 
 [Laravel 完整开源项目大全](http://laravelacademy.org/laravel-project)  
 
@@ -113,14 +118,13 @@ php artisan make:model User -m
 > Usage:  
 >  command [options] [arguments]  
 
+[Laravel5.0 HTTP 路由](https://docs.golaravel.com/docs/5.0/routing/)  
 
+[laravel 5.5 -- router](https://blog.csdn.net/OneGoal/article/details/77825781)  
 
 [[ Laravel 5.2 文档 ] 基础 —— HTTP 路由](http://laravelacademy.org/post/2784.html)  
 
 [[ Laravel 5.6 文档 ] 基础组件 —— 路由](http://laravelacademy.org/post/8731.html)  
-
-[Laravel 5.6 中文文档](http://laravelacademy.org/docs/laravel-5_6)  
-http://laravelacademy.org/laravel-docs-5_6  
 
 ------
 
