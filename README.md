@@ -2,7 +2,9 @@
 
 ## php资源
 
-[Yii](https://github.com/hncgc/php/blob/master/yii.md)
+[Yii](https://github.com/hncgc/php/blob/master/yii.md)  
+
+[Thinkphp](https://github.com/hncgc/php/blob/master/thinkphp.md)  
 
 [Laravel](https://github.com/hncgc/php/blob/master/Laravel.md)  
 
