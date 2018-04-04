@@ -20,8 +20,13 @@
 
 [PHP必读](https://laravel-china.github.io/php-the-right-way/)  
 
+[php完全自学手册](http://www.php.cn/course/25.html)  
 
 [PHP 教程 | 菜鸟教程](http://www.runoob.com/php/php-tutorial.html)  
+
+
+[2017年最流行的5个php开发框架视频教程推荐](http://www.php.cn/toutiao-361828.html)  
+
 
 [PHP 命名空间(namespace) | 菜鸟教程](http://www.runoob.com/php/php-namespace.html)  
 
