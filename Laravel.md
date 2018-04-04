@@ -164,6 +164,14 @@ Laravel Blade
          return view("about", $data);
 ```
 
+[laravel blade 模版 常用 演示用法](https://blog.csdn.net/lijingshan34/article/details/62890277)  
+
+[blade模板使用总结1](https://blog.csdn.net/qq_37788558/article/details/75331572)  
+
+[laravel compact的用法](https://blog.csdn.net/fjnjxr/article/details/73608610)  
+
+[laravel的blade模板笔记](https://blog.csdn.net/beyond__devil/article/details/52712810)  
+
 ------
 
 [从零开始学Laravel](https://segmentfault.com/blog/zhoujiping)  
