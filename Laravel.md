@@ -87,6 +87,11 @@ http://localhost/laravelapp/server.php
 用laraval new 创建项目
 C:\laragon\www
 λ laravel new laravel56
+
+运行:
+C:\laragon\www\laravel56
+λ php artisan serve
+Laravel development server started: <http://127.0.0.1:8000>
 ```
 
 [Laravel 框架目录结构](https://www.jianshu.com/p/909a650a240f)  
@@ -109,6 +114,10 @@ env环境设置类： https://github.com/vlucas/phpdotenv
 php artisan make:controller PhotoController
 2、使用RESTFUL生成控制器
 php artisan make:controller PhotoController --resource
+
+php artisan make:controller StaticPagesController --plain
+--plain不生成预定义方法
+
 Route::resource('photo', 'PhotoController');
 3、生成模型
 php artisan make:model User -m
@@ -132,6 +141,28 @@ php artisan make:model User -m
 [[ Laravel 5.2 文档 ] 基础 —— HTTP 路由](http://laravelacademy.org/post/2784.html)  
 
 [[ Laravel 5.6 文档 ] 基础组件 —— 路由](http://laravelacademy.org/post/8731.html)  
+
+
+Laravel Blade
+---
+
+[PHP laravel系列之Blade模版](https://blog.csdn.net/u014665013/article/details/77801111)  
+
+[Laravel Blade 模板用法](https://segmentfault.com/a/1190000010864876)  
+
+> 向视图传递变量
+> return view('sites.about')->with("name", $name);
+```
+         return view("about")->with([
+             'name'=>$name,
+             'date'=>$date
+         ]);
+         
+         return view("about", compact('name', 'date'));
+         
+         @data = [...];
+         return view("about", $data);
+```
 
 ------
 
