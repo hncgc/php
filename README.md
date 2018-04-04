@@ -18,9 +18,20 @@
 
 [PHP必读](https://laravel-china.github.io/php-the-right-way/)  
 
+
+[PHP 教程 | 菜鸟教程](http://www.runoob.com/php/php-tutorial.html)  
+
+[PHP 命名空间(namespace) | 菜鸟教程](http://www.runoob.com/php/php-namespace.html)  
+
 [使用命名空间：别名/导入](http://php.net/manual/zh/language.namespaces.importing.php)  
 
 [命名空间概述](http://php.net/manual/zh/language.namespaces.rationale.php)  
+
+[PHP命名空间的作用、为什么使用命名空间？](https://www.cnblogs.com/zxyu/p/6231585.html)  
+
+[php命名空间namespace全解](https://blog.csdn.net/ss22_xiha/article/details/52694279)  
+
+[PHP命名空间 namespace 及导入 use 的用法](https://blog.csdn.net/JathamJ/article/details/53102947)  
 
 -------------
 
