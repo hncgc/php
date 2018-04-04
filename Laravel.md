@@ -172,6 +172,11 @@ Laravel Blade
 
 [laravel的blade模板笔记](https://blog.csdn.net/beyond__devil/article/details/52712810)  
 
+[Blade模板变量使用集锦](https://blog.csdn.net/fationyyk/article/details/51505157)  
+
+[Laravel-Blade模板引擎](https://blog.csdn.net/ks3ks/article/details/54942830)  
+
+
 ------
 
 [从零开始学Laravel](https://segmentfault.com/blog/zhoujiping)  
