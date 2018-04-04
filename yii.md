@@ -36,3 +36,14 @@ Yii Framework 2.0
 [Yii Framework 中文网仓库](https://github.com/yiichina)  
 
 [Yii Framework 中文图书](http://www.yiibook.com)  
+
+[Yii2.0框架开发（基础篇） 22课时 陈华老师PHP高端框架系列教程](https://ke.qq.com/course/148081)
+
+[Yii2快速入门PDF教程](https://download.csdn.net/download/lazybighead/7910315)  
+
+[2017年最热门的几个Yii框架视频教程推荐](http://www.php.cn/toutiao-362431.html)  
+
+
+
+
+
