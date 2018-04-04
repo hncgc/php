@@ -46,10 +46,15 @@ Yii最有效率PHP框架之一
 https://github.com/summerblue/phphub  
 https://github.com/summerblue/phphub5  
 
+Laravel视频教程
+---
 
 [PHP Laravel Vue.js 视频教程](https://www.codecasts.com/)  
 
 [Laravel 5.1 视频基础教程](https://www.codecasts.com/series/laravel-5-basic)  
+
+[2017年最新的五个Laravel视频教程推荐](http://www.php.cn/toutiao-362426.html)  
+
 
 ------
 
