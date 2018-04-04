@@ -2,6 +2,8 @@
 
 ## php资源
 
+[Yii](https://github.com/hncgc/php/blob/master/yii.md)
+
 [Laravel](https://github.com/hncgc/php/blob/master/Laravel.md)  
 
 [Ubuntu](https://github.com/hncgc/php/blob/master/Ubuntu.md)  
@@ -99,15 +101,6 @@ Redis
 [PHP-redis中文文档](http://bbs.redis.cn/forum.php?mod=viewthread&tid=481)  
 
 --------
-
-yii2
----
-
-[Yii2速查表（中文版）](https://nai8.me/tool-sc.html)  
-
-[Yii 2.0 权威指南](http://www.yiichina.com/doc/guide/2.0)  
-
-[Yii中文网](http://www.yiichina.com/)  
 
 
 
