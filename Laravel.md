@@ -57,6 +57,9 @@ Laravel视频教程
 
 [2017年最新的五个Laravel视频教程推荐](http://www.php.cn/toutiao-362426.html)  
 
+[[慕课网]轻松学会Laravel-基础篇(视频)](http://www.imooc.com/learn/697)  
+
+[[慕课网]轻松学会Laravel-表单篇(视频)](http://www.imooc.com/learn/699)  
 
 ------
 
@@ -305,6 +308,13 @@ Laravel Eloquent
 https://laravel.com/docs/5.6/eloquent
 
 ```
+[Read–Eval–Print Loop (REPL)](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)  
+
+[Laravel入门实战之一（打造一个PHP REPL）](https://blog.csdn.net/xuxiuning/article/details/78549759)  
+
+[使用 Php Artisan Tinker 来调试你的 Laravel](https://www.jianshu.com/p/9cc3d8df614f)  
+
+[使用 Php Artisan Tinker 来调试你的 Laravel](http://laravelacademy.org/post/4935.html)  
 
 ------
 
