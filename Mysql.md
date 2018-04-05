@@ -29,6 +29,55 @@
 
 [百度云盘分享：MySQL零基础入门视频教程！](https://blog.csdn.net/x910378112/article/details/77141241)  
 
+[数据库实战（一）数据库主从复制](https://blog.csdn.net/chenwiehuang/article/details/52787701)  
+
+[MySQL实战（二）sql语句优化](https://blog.csdn.net/chenwiehuang/article/details/52786597)  
+
+[MySQL实战（三）索引简介](https://blog.csdn.net/chenwiehuang/article/details/52892610)  
+
+[MySQL实战（四）数据库事务](https://blog.csdn.net/chenwiehuang/article/details/52788749)  
+
+[MySQL实战（五）mysql锁分析](https://blog.csdn.net/chenwiehuang/article/details/52794489)  
+
+[MySQL实战（六）数据库开发规范](https://blog.csdn.net/chenwiehuang/article/details/52795757)  
+
+------
+
+## MySQL 规范
+
+[规范化－数据库设计原则](https://blog.csdn.net/bcqtt/article/details/51670344)  
+
+[关系数据库规范化理论](https://blog.csdn.net/u013238950/article/details/50909335)  
+https://blog.csdn.net/hbrqlpf/article/details/1887204  
+
+[数据库规范化设计的五个原则](https://blog.csdn.net/bcqtt/article/details/51670344)  
+
+[数据库关系模式规范化](https://blog.csdn.net/Two212250511/article/details/26163749)  
+
+[数据库的规范化与非规范化比较](https://blog.csdn.net/legend050709/article/details/39737689)  
+
+[数据库系统原理(4)--数据依赖与关系模式规范化](https://blog.csdn.net/williamyi96/article/details/66558051)  
+
+[数据库的部分依赖，完全依赖，传递依赖以及三种范式](https://blog.csdn.net/qq_31929931/article/details/77186259)  
+
+[数据库，部分函数依赖，传递函数依赖，完全函数依赖，三种范式的区别](https://blog.csdn.net/rl529014/article/details/48391465)  
+
+[数据库定义规范(可以借鉴，不是硬性标准)](https://blog.csdn.net/u013628152/article/details/43229155)  
+
+[ MySQL开发规范与使用技巧总结](https://blog.csdn.net/xlgen157387/article/details/48086607)  
+
+[mysql开发规范文档](https://blog.csdn.net/wyzxg/article/details/8618937)  
+
+[MySQL 设计与开发规范](https://blog.csdn.net/wenniuwuren/article/details/48565291)  
+
+[MYSQL 研发规范](https://blog.csdn.net/JR_Way/article/details/50519402)
+
+[MySQL数据库30条规范解读](https://blog.csdn.net/xiaoping0915/article/details/55511365)  
+
+[阿里的Mysql规范 MySQL库表设计规范](https://blog.csdn.net/u012966918/article/details/52161519)  
+
+[MYSQL数据库设计规范与原则](https://blog.csdn.net/u011341352/article/details/55195559)  
+
 ---------------------------------
 
 Schema
