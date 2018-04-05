@@ -256,6 +256,8 @@ Migration看作一种数据库的VCS（Version Control System），即版本控�
 Laravel Eloquent ORM
 ---
 
+[Laravel Eloquent](https://laravel.com/docs/5.6/eloquent)  
+
 [ Laravel 5.6 文档 ] Eloquent ORM —— 快速入门
 http://laravelacademy.org/post/8855.html
 ```
@@ -267,8 +269,41 @@ php artisan make:model User
 php artisan make:model User --migration
 php artisan make:model User -m
 ```
+```
+php artisan make:model Article
 
+php artisan tinker
+>>>$article = new App\Artilc;
+>>>$article->title = "My first title";
+>>>$article->published_at = Carbon\Carbon::now();
+>>>$article->save();
+>>>$article->toArray();
+>>>$first=App\Article::find(1);
+>>>$first->title="Update";
+>>>$first->save();
+>>>$second=App\Article::where('content','=','content')->get();
+>>>$second=App\Article::where('content','content')->get();
+>>>$second=App\Article::where('content','contenr')->first();
+>>>$article=App\Article::create(['title'=>'Second Title','content'=>'Second Content','published_at'=>Carbom\Carbon::new()]);
+出错
 
+不能直接填充，在Article的model中设置：
+class Article extends Model
+{
+    protected $fillable=['title','content','published_ad'];
+}
+退出tinker
+重启tinker:
+>>>$article=App\Article::create(['title'=>'Second Title','content'=>'Second Content','published_at'=>Carbom\Carbon::new()]);
+>>>$article->update('title'=>'Change Second Title');
+
+>>>$first = App\Article::find(1);
+>>>$first->delete();
+
+Laravel Eloquent
+https://laravel.com/docs/5.6/eloquent
+
+```
 
 ------
 
