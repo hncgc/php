@@ -1,6 +1,8 @@
 Laravel
 ---
 
+[Laravel 精选资源大全](https://blog.csdn.net/qq_30002351/article/details/78215821)  
+
 [Laravel 5.6 版本正式发布](http://www.golaravel.com/post/laravel-5-6-is-now-released/)  
 
 [Laravel学院](http://laravelacademy.org/)  
@@ -354,6 +356,22 @@ C:\laragon\www
 
 -------
 
+## laravel的项目
+
+[Laravel5 入门小项目详细教程](https://blog.csdn.net/sqzhao/article/details/46791207)  
+https://github.com/RryLee/StuGradeWithLaravel5  
+
+[Laravel入门教程: 实现简单的AJAX的CRUD页面](https://blog.csdn.net/netcan_noah/article/details/52237929)  
+https://github.com/netcan/Laravel_AJAX_CRUD  
+HFUT_ChemLab：https://github.com/netcan/HFUT_ChemLab  
+
+[☆首发☆非常适合学习理解laravel的项目--图书管理系统](https://blog.csdn.net/w786572258/article/details/52799555)  
+https://www.github.com/786572258/laravel-bookmg  
+
+[Laravel 完整开源项目大全](https://blog.csdn.net/qq_38568388/article/details/79384078)  
+https://blog.csdn.net/qq_25600055/article/details/52451138  
+
+[laravel 5.5整个项目](https://download.csdn.net/download/onegoal/10237383)  
 
 -------
 
