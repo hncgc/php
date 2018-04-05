@@ -5,9 +5,11 @@ Laravel
 
 [Laravel学院](http://laravelacademy.org/)  
 
-[Laravel文档](https://docs.golaravel.com/)  
-
 [Laravel5.0文档](https://docs.golaravel.com/docs/5.0/installation/)  
+
+[Laravel 5.6 官方文档](https://laravel.com/docs/5.6/)  
+
+[Laravel5.6官方文档](https://docs.golaravel.com/)  
 
 [Laravel 5.6 中文文档](http://laravelacademy.org/docs/laravel-5_6)  
 http://laravelacademy.org/laravel-docs-5_6  
@@ -92,6 +94,9 @@ C:\laragon\www
 C:\laragon\www\laravel56
 λ php artisan serve
 Laravel development server started: <http://127.0.0.1:8000>
+
+laravel\framework位置：
+C:\laragon\www\laravelapp\vendor\laravel\framework
 ```
 
 [Laravel 框架目录结构](https://www.jianshu.com/p/909a650a240f)  
@@ -175,6 +180,94 @@ Laravel Blade
 [Blade模板变量使用集锦](https://blog.csdn.net/fationyyk/article/details/51505157)  
 
 [Laravel-Blade模板引擎](https://blog.csdn.net/ks3ks/article/details/54942830)  
+
+------
+
+Laravel Migration
+---
+
+[Database: Migrations](https://laravel.com/docs/5.6/migrations)  
+
+[[ Laravel 5.6 文档 ] 快速入门 —— 安装配置](http://laravelacademy.org/post/8650.html#toc_5)  
+
+[[ Laravel 5.6 文档 ] 数据库操作 —— 快速入门](http://laravelacademy.org/post/8830.html)  
+
+[laravel之Migration的操作](https://segmentfault.com/a/1190000008659390)  
+
+```
+检查根目录的.env文件
+//查看框架版本
+php artisan --version
+//创建表 
+php artisan make:migration create_table_users --create=users;
+//查看创建表语句 
+php artisan migrate --pretend 
+//回滚操作 撤销
+php artisan migrate:rollback
+//数据库建立
+php artisan migrate
+表的操作 
+表单字段的设计 ：
+Schema::create('users', function (Blueprint $table) {
+       //调用相关的方法  即可自动的创建字段 更加灵活更加方便 
+            $table->increments('id');
+            $table->string('username')->unique();
+            $table->string('email')->unique()->nullable();
+          //手机考虑到无符号 与区别 与未来的发展趋势 考虑用string  
+            $table->string('phone')->unique()->nullable();
+            $table->text('avatar_url')->nullable();
+            //$table->string('country_code')->default('+86');
+            $table->string('password');
+            $table->text('intro')->nullable();
+            $table->timestamps();
+        });
+创建完可以使用 php artisan migrate --pretend查看数据表创建语句
+添加表字段
+php artisan make:migrate add_intro_column_to_user --table=users
+up():
+   $table->string('intro');
+
+down():
+    $table->dropColumn('intro');
+
+字段修改要下载doctrine/dbal：
+composer require doctrine/dbal
+
+字段修改：
+$table->string('name',50)->nullable()->change;
+字段改名：
+$table->renameColumn('from', 'to');
+参见：https://laravel.com/docs/5.6/migrations
+```
+
+[php中环境变量$_ENV与getenv](https://blog.csdn.net/zhezhebie/article/details/72734590)  
+
+[Laravel数据库迁移（Database Migration）操作实例](https://blog.csdn.net/lgyaxx/article/details/61615351)  
+```
+Migration看作一种数据库的VCS（Version Control System），即版本控制系统。可以通过Laravel的artisan命令快速创建或还原Migration文件，来进行数据库的构架
+```
+
+[Laravel 利用migrate 创建数据表](https://blog.csdn.net/incloud_anke/article/details/53033161)  
+
+[Laravel- 使用migration 创建数据库](https://blog.csdn.net/iong_l/article/details/69391250)  
+
+----------------
+
+Laravel Eloquent ORM
+---
+
+[ Laravel 5.6 文档 ] Eloquent ORM —— 快速入门
+http://laravelacademy.org/post/8855.html
+```
+定义模型
+创建模型实例最简单的办法就是使用 Artisan 命令 make:model：
+php artisan make:model User
+
+如果你想要在生成模型时生成数据库迁移，可以使用 --migration 或 -m 选项：
+php artisan make:model User --migration
+php artisan make:model User -m
+```
+
 
 
 ------
