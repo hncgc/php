@@ -258,8 +258,7 @@ Laravel Eloquent ORM
 
 [Laravel Eloquent](https://laravel.com/docs/5.6/eloquent)  
 
-[ Laravel 5.6 文档 ] Eloquent ORM —— 快速入门
-http://laravelacademy.org/post/8855.html
+[[ Laravel 5.6 文档 ] Eloquent ORM —— 快速入门](http://laravelacademy.org/post/8855.html)  
 ```
 定义模型
 创建模型实例最简单的办法就是使用 Artisan 命令 make:model：
@@ -268,10 +267,12 @@ php artisan make:model User
 如果你想要在生成模型时生成数据库迁移，可以使用 --migration 或 -m 选项：
 php artisan make:model User --migration
 php artisan make:model User -m
-```
-```
 php artisan make:model Article
+```
 
+[使用 Php Artisan Tinker 来调试你的 Laravel](https://www.jianshu.com/p/9cc3d8df614f)  
+
+```
 php artisan tinker
 >>>$article = new App\Artilc;
 >>>$article->title = "My first title";
