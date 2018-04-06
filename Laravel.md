@@ -448,11 +448,43 @@ C:\laragon\www
 
 ## laravel的项目
 
+-------
+
 [基于 Laravel 开发博客应用系列](http://laravelacademy.org/tutorials/blog)  
 > 使用 Laravel 5.1 开发博客应用实战教程系列  
 > 项目源码GitHub：https://github.com/ChuckHeintzelman/l5beauty  
 
 [基于 Laravel 开发博客应用系列 —— 项目必备软件安装](http://laravelacademy.org/post/2116.html)  
+
+[基于 Laravel 开发博客应用系列 —— 设置 Windows 本地开发环境](http://laravelacademy.org/post/2124.html)  
+
+[基于 Laravel 开发博客应用系列 —— 设置 Linux/Mac 本地开发环境](http://laravelacademy.org/post/2177.html)  
+
+[基于 Laravel 开发博客应用系列 —— Homestead 和 Laravel 安装器](http://laravelacademy.org/post/2207.html)  
+
+[基于 Laravel 开发博客应用系列 —— 从测试开始（一）：创建项目和PHPUnit](http://laravelacademy.org/post/2232.html)  
+
+[基于 Laravel 开发博客应用系列 —— 从测试开始（二）：使用Gulp实现自动化测试]http://laravelacademy.org/post/2249.html()  
+
+[基于Laravel开发博客应用系列 —— 十分钟搭建博客系统](http://laravelacademy.org/post/2265.html)  
+
+[基于Laravel开发博客应用系列 —— 构建博客后台管理系统](http://laravelacademy.org/post/2279.html)  
+
+[基于Laravel开发博客应用系列 —— 使用Bower+Gulp集成前端资源](http://laravelacademy.org/post/2299.html)  
+
+[基于Laravel开发博客应用系列 —— 在后台实现文章标签增删改查功能](http://laravelacademy.org/post/2320.html)  
+
+[基于Laravel开发博客应用系列 —— 实现文件上传管理功能](http://laravelacademy.org/post/2333.html)  
+
+[基于Laravel开发博客应用系列 —— 后台文章增删改查功能实现（支持Markdown）](http://laravelacademy.org/post/2358.html)  
+
+[基于Laravel开发博客应用系列 —— 前台功能优化：给博客换上漂亮的主题 & 完善博客功能](http://laravelacademy.org/post/2371.html)  
+
+[基于Laravel开发博客应用系列 —— 联系我们 & 发送邮件 & 队列使用（基于数据库）](http://laravelacademy.org/post/2410.html)  
+
+[基于 Laravel 开发博客应用系列 —— 添加评论、RSS 订阅和站点地图功能实现](http://laravelacademy.org/post/2438.html)  
+
+-----------
 
 [Laravel5 入门小项目详细教程](https://blog.csdn.net/sqzhao/article/details/46791207)  
 https://github.com/RryLee/StuGradeWithLaravel5  
