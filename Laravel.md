@@ -228,7 +228,7 @@ Schema::create('users', function (Blueprint $table) {
         });
 创建完可以使用 php artisan migrate --pretend查看数据表创建语句
 添加表字段
-php artisan make:migrate add_intro_column_to_user --table=users
+php artisan make:migration add_intro_column_to_user --table=users
 up():
    $table->string('intro');
 
