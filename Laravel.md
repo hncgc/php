@@ -318,6 +318,80 @@ https://laravel.com/docs/5.6/eloquent
 
 [使用 Php Artisan Tinker 来调试你的 Laravel](http://laravelacademy.org/post/4935.html)  
 
+-------------------
+
+Laravel Forms
+---
+
+[Laravel 5系列教程六：表单 Forms](https://www.cnblogs.com/grimm/p/5423108.html)  
+blog-css-js：https://github.com/JellyBool/blog-css-js  
+
+[Laravel 5系列教程六：表单 Forms](https://segmentfault.com/a/1190000003693675)  
+
+[Laravel Form-builder使用}(https://blog.csdn.net/qq_33808550/article/details/53884561)  
+
+Laravel Vuejs
+---
+
+[vuejs官网 - Vue.js](https://vuejs.org/)  
+
+[Vue:Vue.js专业中文社区](https://www.vue-js.com/)  
+
+[Laravel Vuejs 实战视频：开发知乎](https://www.codecasts.com/series/build-a-zhihu-website-with-laravel)  
+Laravel + Vue.js 开发知乎视频：https://github.com/JellyBool/zhihu-app  
+
+[Vue.js 教程 | 菜鸟教程](http://www.runoob.com/vue2/vue-tutorial.html)  
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <p>{{ message }}</p>
+</div>
+
+<script>
+new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue.js!'
+  }
+})
+</script>
+</body>
+</html>
+```
+
+[Webpack 入门教程](http://www.runoob.com/w3cnote/webpack-tutorial.html)  
+
+[淘宝 NPM 镜像](http://npm.taobao.org/)  
+
+[Node.js 教程 | 菜鸟教程](http://www.runoob.com/nodejs/nodejs-tutorial.html)  
+
+[node.js](https://nodejs.org/en/)  
+
+Laravel 富文本编辑
+---
+
+[Laravel-使用富文本编辑器UEditor](https://blog.csdn.net/wlzx120/article/details/77480662)  
+
+[Laravel 框架集成 UEditor 编辑器的方法](https://blog.csdn.net/u011415782/article/details/78909750)  
+
+[Laravel 富文本编辑框overtrue/laravel-ueditor](https://blog.csdn.net/cominglately/article/details/79773563)  
+
+Laravel Redis
+---
+
+[Laravel中如何使用Redis](https://blog.csdn.net/json_ligege/article/details/54617452)  
+
+[Laravel 中使用 Redis 数据库](https://blog.csdn.net/json_vip/article/details/54646122)  
+
+[Laravel 使用Redis 笔记](https://blog.csdn.net/windwolfer/article/details/50247419)  
+
 ------
 
 [从零开始学Laravel](https://segmentfault.com/blog/zhoujiping)  
