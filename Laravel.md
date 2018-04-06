@@ -328,7 +328,7 @@ blog-css-js：https://github.com/JellyBool/blog-css-js
 
 [Laravel 5系列教程六：表单 Forms](https://segmentfault.com/a/1190000003693675)  
 
-[Laravel Form-builder使用}(https://blog.csdn.net/qq_33808550/article/details/53884561)  
+[Laravel Form-builder使用](https://blog.csdn.net/qq_33808550/article/details/53884561)  
 
 Laravel Vuejs
 ---
@@ -447,6 +447,12 @@ C:\laragon\www
 -------
 
 ## laravel的项目
+
+[基于 Laravel 开发博客应用系列](http://laravelacademy.org/tutorials/blog)  
+> 使用 Laravel 5.1 开发博客应用实战教程系列  
+> 项目源码GitHub：https://github.com/ChuckHeintzelman/l5beauty  
+
+[基于 Laravel 开发博客应用系列 —— 项目必备软件安装](http://laravelacademy.org/post/2116.html)  
 
 [Laravel5 入门小项目详细教程](https://blog.csdn.net/sqzhao/article/details/46791207)  
 https://github.com/RryLee/StuGradeWithLaravel5  
