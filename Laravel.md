@@ -466,21 +466,21 @@ C:\laragon\www
 
 [基于 Laravel 开发博客应用系列 —— 从测试开始（二）：使用Gulp实现自动化测试](http://laravelacademy.org/post/2249.html)  
 
-[基于Laravel开发博客应用系列 —— 十分钟搭建博客系统](http://laravelacademy.org/post/2265.html)  
+[基于 Laravel 开发博客应用系列 —— 十分钟搭建博客系统](http://laravelacademy.org/post/2265.html)  
 
-[基于Laravel开发博客应用系列 —— 构建博客后台管理系统](http://laravelacademy.org/post/2279.html)  
+[基于 Laravel 开发博客应用系列 —— 构建博客后台管理系统](http://laravelacademy.org/post/2279.html)  
 
-[基于Laravel开发博客应用系列 —— 使用Bower+Gulp集成前端资源](http://laravelacademy.org/post/2299.html)  
+[基于 Laravel 开发博客应用系列 —— 使用Bower+Gulp集成前端资源](http://laravelacademy.org/post/2299.html)  
 
-[基于Laravel开发博客应用系列 —— 在后台实现文章标签增删改查功能](http://laravelacademy.org/post/2320.html)  
+[基于 Laravel 开发博客应用系列 —— 在后台实现文章标签增删改查功能](http://laravelacademy.org/post/2320.html)  
 
-[基于Laravel开发博客应用系列 —— 实现文件上传管理功能](http://laravelacademy.org/post/2333.html)  
+[基于 Laravel 开发博客应用系列 —— 实现文件上传管理功能](http://laravelacademy.org/post/2333.html)  
 
-[基于Laravel开发博客应用系列 —— 后台文章增删改查功能实现（支持Markdown）](http://laravelacademy.org/post/2358.html)  
+[基于 Laravel 开发博客应用系列 —— 后台文章增删改查功能实现（支持Markdown）](http://laravelacademy.org/post/2358.html)  
 
-[基于Laravel开发博客应用系列 —— 前台功能优化：给博客换上漂亮的主题 & 完善博客功能](http://laravelacademy.org/post/2371.html)  
+[基于 Laravel 开发博客应用系列 —— 前台功能优化：给博客换上漂亮的主题 & 完善博客功能](http://laravelacademy.org/post/2371.html)  
 
-[基于Laravel开发博客应用系列 —— 联系我们 & 发送邮件 & 队列使用（基于数据库）](http://laravelacademy.org/post/2410.html)  
+[基于 Laravel 开发博客应用系列 —— 联系我们 & 发送邮件 & 队列使用（基于数据库）](http://laravelacademy.org/post/2410.html)  
 
 [基于 Laravel 开发博客应用系列 —— 添加评论、RSS 订阅和站点地图功能实现](http://laravelacademy.org/post/2438.html)  
 
