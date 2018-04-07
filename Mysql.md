@@ -92,3 +92,14 @@ Schema
 [数据库中的Schema和Database的区别](https://blog.csdn.net/itcodes/article/details/17239059)  
 
 ---------------------------------
+
+Mysql工具
+---
+
+[HeidiSQL Portable 9.2下载]（http://www.onlinedown.net/soft/485971.htm）  
+> HeidiSQL 是一款用于简单化你的 MySQL 服务器和数据库管理的图形化界面。该软件允许你浏览你的数据库，管理表，浏览和编辑记录，管理用户权限等等。此外，你可以从文本文件导入数据，运行 SQL查询，在两个数据库之间同步表以及导出选择的表到其它数据库或者 SQL 脚本当中。HeidiSQL 提供了一个用于在数据库浏览之间切换 SQL 查询和标签带有语法突出显示的简单易用的界面。其它功能包括BLOB 和 MEMO 编辑，大型 SQL 脚本支持，用户进程管理等。该软件资源开放。  
+
+[HeidiSQL下载_HeidiSQL绿色版_HeidiSQL9.3.0.4984-华军软件园](http://www.onlinedown.net/soft/69729.htm)  
+
+
+--------
