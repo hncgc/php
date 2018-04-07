@@ -8,6 +8,8 @@
 
 [Laravel](https://github.com/hncgc/php/blob/master/Laravel.md)  
 
+[Lumen](https://github.com/hncgc/php/blob/master/Lumen.md)  
+
 [Ubuntu](https://github.com/hncgc/php/blob/master/Ubuntu.md)  
 
 [PhpStorm](https://github.com/hncgc/php/blob/master/PhpStorm.md)  
