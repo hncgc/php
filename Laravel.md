@@ -327,6 +327,11 @@ https://laravel.com/docs/5.6/eloquent
 - [GitHub](https://github.com/bobthecow/psysh)  
 - [Packagist](https://packagist.org/packages/psy/psysh)  
 
+[laravel Carbon函数](https://blog.csdn.net/lbwo001/article/details/53063867)  
+
+[日期及时间处理包 Carbon 在 Laravel 中的简单使用](https://blog.csdn.net/gengfu_php/article/details/78307950)  
+
+[laravel carbon 使用](https://blog.csdn.net/zhezhebie/article/details/79386051)  
 
 -------------------
 
