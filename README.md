@@ -111,6 +111,8 @@ Redis
 
 --------
 
+[解析php中die(),exit(),return的区别](http://www.jb51.net/article/38785.htm)  
+> laravel dd函数打印，print_r或者var_dump、exit die
 
 
 
