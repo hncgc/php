@@ -260,6 +260,8 @@ Migration看作一种数据库的VCS（Version Control System），即版本控�
 
 Laravel Eloquent ORM
 ---
+[Eloquent: Getting Started](https://laravel.com/docs/5.6/eloquent)  
+https://laravel.com/docs/5.1/eloquent  
 
 [Laravel Eloquent](https://laravel.com/docs/5.6/eloquent)  
 
