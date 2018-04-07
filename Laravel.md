@@ -491,10 +491,60 @@ https://github.com/illuminate/html
     <form method="POST" action="http://127.0.0.1:8000/articles/create" accept-charset="UTF-8"><input name="_token" type="hidden" value="kPWdeSIcCbcaWWSvQQhGk5mUSFBHrI7d3d3x31uM">
 
     </form>
+```
+## 创建表单并保存  
+```
+C:\laragon\www\laravelapp\resources\views\articles\create.blade.php
+@extends('layouts.app')
+@section('content')
+    <h1>撰写新文章</h1>
+    {!! Form::open(['url' => 'articles']) !!}
+    <div class="form-group">
+        {!! Form::label('title') !!}
+        {!! Form::text('title', null, ['class' => 'form-control']) !!}
+    </div>
+    <!--- Content Field --->
+    <div class='form-group'>
+        {!! Form::label('content', 'Content:') !!}
+        {!! Form::textarea('content', null, ['class' => 'form-control']) !!}
+    </div>
+    {!! Form::submit('发表文章', ['class' => 'btn btn-primary form-control']) !!}
+    {!! Form::close() !!}
+@endsection
+
+C:\laragon\www\laravelapp\app\Http\Controllers\ArticlesController.php
+    public function index()
+    {
+        //$articles = Article::all();
+        $articles = Article::latest()->get();
+        return view('articles.index', compact('articles'));
+    }
+
+    /**
+     * 保存表单数据
+     * @param Request $request
+     */
+    public function store(Request $request)
+    {
+        //接收post过来的数据
+        //存入数据库
+        //重定向
+        //dd($request->get('title'));
+        $input = $request->all();
+        $input['published_at'] = Carbon::now();
+        Article::create($input);
+        return redirect('/articles');
+    }
+
+C:\laragon\www\laravelapp\routes\web.php
+
+Route::get('articles', 'ArticlesController@index');
+Route::get('articles/create', 'ArticlesController@create');
+Route::get('articles/{id}', 'ArticlesController@show');
+Route::post('articles', 'ArticlesController@store');
 
 ```
-
-
+-----------------------------------------------------
 
 Laravel Vuejs
 ---
