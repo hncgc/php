@@ -525,6 +525,9 @@ https://blog.csdn.net/qq_25600055/article/details/52451138
 
 [Laravel docs](https://github.com/laravel/docs)  
 
+[Laravel Coding](http://laravelcoding.com/)  
+
+
 ---------------------------
 
 
