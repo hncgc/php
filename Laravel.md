@@ -318,6 +318,14 @@ https://laravel.com/docs/5.6/eloquent
 
 [使用 Php Artisan Tinker 来调试你的 Laravel](http://laravelacademy.org/post/4935.html)  
 
+[PsySH：PHP交互运行环境-云栖社区-阿里云](https://yq.aliyun.com/articles/33523)  
+
+[PsySH——PHP交互式控制台](http://blog.jobbole.com/99110/)  
+- [PsySH官网](http://psysh.org/)  
+- [GitHub](https://github.com/bobthecow/psysh)  
+- [Packagist](https://packagist.org/packages/psy/psysh)  
+
+
 -------------------
 
 Laravel Forms
