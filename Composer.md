@@ -68,3 +68,53 @@ php composer.phar
 [使用composer新建一个laravel项目](https://blog.csdn.net/qiqiaiairen/article/details/51233703)  
 
 --------
+
+[composer原理与使用简介](https://blog.csdn.net/xhjcehust/article/details/52832076)  
+
+[composer 配置文件详解](https://blog.csdn.net/ghostyusheng/article/details/56488976)  
+
+[利用 Composer 一步一步构建自己的 PHP 框架](https://blog.csdn.net/luyaran/article/details/53836486)  
+
+[创建自己的composer库](https://blog.csdn.net/advance100/article/details/78431045)  
+
+[使用composer发布自己的PHP依赖包](https://blog.csdn.net/bo19881224/article/details/52812986)  
+
+[mvc(composer加载)](https://blog.csdn.net/likaibk/article/details/52734529)  
+
+[PHP 开发者该知道的 5 个 Composer 小技巧](https://blog.csdn.net/gelcaas/article/details/70510250)  
+
+[php Composer的简单使用](https://blog.csdn.net/zgahlibin/article/details/54667847)  
+
+[用Composer搭建PHP框架（一）](https://blog.csdn.net/luyaran/article/details/53836486)  
+https://blog.csdn.net/w654734702/article/details/73161414  
+
+[用Composer搭建PHP框架（二）](https://blog.csdn.net/w654734702/article/details/73162238)  
+
+[用composer搭建php框架（一）--安装composer](https://blog.csdn.net/sinat_27719433/article/details/77163936)  
+
+[用composer搭建php框架（二）--搭建路由](https://blog.csdn.net/sinat_27719433/article/details/77164562)  
+github：https://github.com/xdlmr/myframe  
+
+[用composer搭建php框架（三）--MVC之控制器](https://blog.csdn.net/sinat_27719433/article/details/77248767)  
+
+[用composer搭建php框架（四）--MVC之视图](https://blog.csdn.net/sinat_27719433/article/details/77252435)  
+
+[用composer搭建php框架（五）--MVC之模型](https://blog.csdn.net/sinat_27719433/article/details/77253220)  
+
+[利用composer搭建PHP框架（一.路由解析）](https://blog.csdn.net/mxdzchallpp/article/details/79219992)  
+
+[Composer构建现代PHP帝国(二)——编写自己的Composer包](https://blog.csdn.net/github_36670459/article/details/53910790)  
+
+[利用组件开发与composer构建类Laravel框架](https://blog.csdn.net/tdcqfyl/article/details/52278103)  
+
+[MVC框架的封装（九）composer的加载](https://blog.csdn.net/lixianseng/article/details/52735999)  
+
+[深入理解composer的autoload自动加载原理](https://blog.csdn.net/u012580566/article/details/53515938)  
+
+[如何使用composer的autoload来自动加载自己编写的函数库与类库](https://blog.csdn.net/keyunq/article/details/54773292)  
+
+
+
+
+
+
