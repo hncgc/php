@@ -48,6 +48,30 @@
 
 -------------
 
+[现代 PHP 新特性系列目录](http://laravelacademy.org/modern-php/feature-modern-php)  
+
+[现代 PHP 新特性系列（一） —— 命名空间](http://laravelacademy.org/post/4221.html)  
+
+[现代 PHP 新特性系列（二） —— 善用接口](http://laravelacademy.org/post/4246.html)  
+
+[现代 PHP 新特性系列（三） —— Trait 概览](http://laravelacademy.org/post/4281.html)  
+
+[现代 PHP 新特性系列（四） —— 生成器的创建和使用](http://laravelacademy.org/post/4317.html)  
+
+[现代 PHP 新特性系列（五） —— 闭包和匿名函数](http://laravelacademy.org/post/4341.html)  
+
+[现代 PHP 新特性系列（六） —— Zend Opcache](http://laravelacademy.org/post/4396.html)  
+
+[现代 PHP 新特性系列（七） —— 内置的 HTTP 服务器](http://laravelacademy.org/post/4422.html)  
+```
+启动
+这个内置的Web服务器很容易启动，打开终端（Windows下对应是cmd命令行），进入项目根目录，执行如下命令即可：
+php -S localhost:8000
+访问http://localhost:8000就可以预览应用了
+```
+
+------------------------------
+
 Homestead
 ---------
 
@@ -56,8 +80,6 @@ https://www.jianshu.com/p/c57cac7ce1e8
 
 Mac - laravel使用 -- Homestead环境搭建【VPN】
 https://www.jianshu.com/p/b7ad926b326a
-
-------------------
 
 ----------------------
 
