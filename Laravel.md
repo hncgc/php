@@ -348,6 +348,8 @@ blog-css-js：https://github.com/JellyBool/blog-css-js
 [Laravel教程 六：表单 Forms](https://laravist.com/article/14)  
 https://www.codecasts.com/blog/post/programming-with-laravel-5-laravel-forms-input  
 ```
+laravel 5.2 之后请使用 laravelcollective/html 替换 illuminate/html
+
 首先到https://github.com/JellyBool/blog-css-js得到静态文件，然后分别修改下面三个文件：
 1. app.blade.php
 2. articles/index.blade.php
@@ -370,6 +372,84 @@ https://www.codecasts.com/blog/post/programming-with-laravel-5-laravel-forms-inp
 一个是bootstrap，一个是自定义的。
 在articles/index.blade.php文件中，我们将每个$article放在<article>标签中：
 ```
+
+> laravel 5.2 之后请使用 laravelcollective/html 替换 illuminate/html
+
+[Laravel 组件之 Forms & HTML 组件 (laravelcollective/html)](https://segmentfault.com/a/1190000011580448)  
+```
+    "require": {
+        "php": "^7.1.3",
+        "fideloper/proxy": "^4.0",
+        "illuminate/html": "^5.0",
+        "laravel/framework": "5.6.*",
+        "laravel/tinker": "^1.0",
+        "nesbot/carbon": "^1.25"
+    },
+
+"illuminate/html": "^5.0",改为： （"laravelcollective/html": "5.1.*"失败）"laravelcollective/html": "5.6",
+"require": {
+    ......
+    "laravelcollective/html": "5.6"
+    ......
+}
+
+    "require": {
+        "php": "^7.1.3",
+        "fideloper/proxy": "^4.0",
+        "illuminate/html": "^5.0",
+        "laravel/framework": "5.6.*",
+        "laravel/tinker": "^1.0",
+        "laravelcollective/html": "^5.6",
+        "nesbot/carbon": "^1.25"
+    },
+
+接下来从命令行更新 composer :(不能安装laravelcollective/html)
+composer update -vvv
+C:\laragon\www\laravelapp (master)
+λ composer update -vvv
+......
+以下方法安装laravelcollective/html成功
+
+C:\laragon\www\laravelapp (master)
+λ composer require laravelcollective/html
+Using version ^5.6 for laravelcollective/html
+./composer.json has been updated
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing laravelcollective/html (v5.6.5): Downloading (100%)
+Package illuminate/html is abandoned, you should avoid using it. Use laravelcollective/html instead.
+Writing lock file
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover
+Discovered Package: fideloper/proxy
+Discovered Package: laravel/tinker
+Discovered Package: nunomaduro/collision
+Discovered Package: laravelcollective/html
+Package manifest generated successfully.
+
+C:\laragon\www\laravelapp (master)
+λ
+接下来添加 provider 到 config/app.php 的 providers 数组:
+
+'providers' => [
+    // ...
+    Collective\Html\HtmlServiceProvider::class,
+    // ...
+],
+最后 添加两个类链接到 config/app.php 的 aliases 数组:
+
+'aliases' => [
+    // ...
+    'Form' => Collective\Html\FormFacade::class,
+    'Html' => Collective\Html\HtmlFacade::class,
+    // ...
+],
+
+C:\laragon\www\laravelapp\config\app.php
+```
+
 
 创建数据表单
 ---
@@ -402,6 +482,15 @@ Route::get('articles/{id}', 'ArticlesController@show');
 安装illuminate/html
 composer require illuminate/html
 https://github.com/illuminate/html
+
+
+    {!! Form::open() !!}
+
+    {!! Form::close() !!}
+生成：
+    <form method="POST" action="http://127.0.0.1:8000/articles/create" accept-charset="UTF-8"><input name="_token" type="hidden" value="kPWdeSIcCbcaWWSvQQhGk5mUSFBHrI7d3d3x31uM">
+
+    </form>
 
 ```
 
