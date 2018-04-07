@@ -345,6 +345,68 @@ blog-css-js：https://github.com/JellyBool/blog-css-js
 
 [Laravel Form-builder使用](https://blog.csdn.net/qq_33808550/article/details/53884561)  
 
+[Laravel教程 六：表单 Forms](https://laravist.com/article/14)  
+https://www.codecasts.com/blog/post/programming-with-laravel-5-laravel-forms-input  
+```
+首先到https://github.com/JellyBool/blog-css-js得到静态文件，然后分别修改下面三个文件：
+1. app.blade.php
+2. articles/index.blade.php
+3. articles/show.blade.php
+下面的视图代码的修改部分，如果你偷懒，你可以使用ctrl+c大法。
+在app.blade.php中：将原来@yield('content')的代码替换成下面的代码：
+<body>
+    <div class="container">
+            <section class="content">
+                <div class="pad group">
+                    @yield('content')
+                </div>
+            </section>
+        </div>
+</body>
+就是在外面多加了个div和一个section。
+再引入这两个css文件：
+<link rel='stylesheet' href="/css/bootstrap.min.css" type='text/css' media='all'/>
+<link rel='stylesheet' href="/css/all.css" type='text/css' media='all'/>
+一个是bootstrap，一个是自定义的。
+在articles/index.blade.php文件中，我们将每个$article放在<article>标签中：
+```
+
+创建数据表单
+---
+
+```
+C:\laragon\www\laravelapp\routes\web.php
+
+Route::get('articles/{id}', 'ArticlesController@show');
+Route::get('articles/create', 'ArticlesController@create');
+
+C:\laragon\www\laravelapp\app\Http\Controllers\ArticlesController.php
+    public function create(){
+        return view('articles.create');
+    }
+
+C:\laragon\www\laravelapp\resources\views\articles\create.blade.php
+@extends('layouts.app')
+@section('content')
+    <h1>撰写新文章</h1>
+@endsection
+
+http://127.0.0.1:8000/articles/create
+Sorry, the page you are looking for could not be f
+原因：先匹配articles/{id}
+
+修改路由：
+Route::get('articles/create', 'ArticlesController@create');
+Route::get('articles/{id}', 'ArticlesController@show');
+
+安装illuminate/html
+composer require illuminate/html
+https://github.com/illuminate/html
+
+```
+
+
+
 Laravel Vuejs
 ---
 
