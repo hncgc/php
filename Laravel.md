@@ -669,7 +669,7 @@ $article->published_at->diffForHumans()
 ```
 --------
 
-表单验证 Validation
+Laravel 表单验证 Validation
 ---
 [Laravel 表单验证 视频](https://www.codecasts.com/series/laravel-5-basic/episodes/11)  
 
@@ -681,6 +681,42 @@ https://laravel.com/docs/5.6/validation
 [如何使用 Laravel 框架的 validator](https://www.jianshu.com/p/27bc0eedc954)  
 
 [Laravel 中 validation 验证 返回中文提示 全局设置](https://www.cnblogs.com/wlphp/p/8094027.html)  
+
+[laravel 基础教程 —— 验证](https://www.jianshu.com/p/9ce7d0fa780d)  
+
+[Laravel Http层--验证](https://www.jianshu.com/p/737fc3eace74)  
+
+[Laravel-自定义验证规则](https://blog.csdn.net/wlzx120/article/details/76997844)  
+
+[Laravel-自定义验证规则](https://blog.csdn.net/wlzx120/article/details/76997844)  
+```
+安装中文验证包以及项目本地化：
+使用 Composer 来安装 laravel-lang。
+$ composer require "overtrue/laravel-lang:~3.0"
+自定义验证码规则，自定义一条验证规则
+实现方法：
+1、服务提供者 AppServiceProvider-boot方法下添加代码：
+use Illuminate\Support\Facades\Validator;
+public function boot()
+    {
+        //自定义验证码规则
+        Validator::extend('yzmgz', function($attribute, $value, $parameters){
+            return $value == session('milkcaptcha');
+        });
+    }
+zh-CN/validation.php 验证规则中文包最后添加一条：
+'yzmgz' => '验证码错误！',
+使用
+$this->validate($request,[  
+            'name' => 'required|unique:users|max:60',  
+            'email' => 'required|email',  
+            'password' => 'required|min:6',  
+            'yzm' => 'required|string|yzmgz',  
+        ]);  
+```
+
+[laravel validator 表单验证](https://blog.csdn.net/xiaosevenliang/article/details/44464073)  
+
 ```
 C:\laragon\www\laravelapp (master)
 λ php -S localhost:8000
