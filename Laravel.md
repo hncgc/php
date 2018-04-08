@@ -667,6 +667,95 @@ C:\laragon\www\laravelapp\app\Http\Controllers\ArticlesController.php
 $article->published_at->diffForHumans()
 "50 minutes ago"
 ```
+--------
+
+表单验证 Validation
+---
+[Laravel 表单验证 视频](https://www.codecasts.com/series/laravel-5-basic/episodes/11)  
+
+[Laravel教程 七:表单验证 Validation](https://www.codecasts.com/blog/post/programming-with-laravel-5-form-request-and-validation)  
+
+[Laravel Validation规则](https://laravel.com/docs/5.1/validation)  
+https://laravel.com/docs/5.6/validation  
+
+[如何使用 Laravel 框架的 validator](https://www.jianshu.com/p/27bc0eedc954)  
+
+[Laravel 中 validation 验证 返回中文提示 全局设置](https://www.cnblogs.com/wlphp/p/8094027.html)  
+```
+C:\laragon\www\laravelapp (master)
+λ php -S localhost:8000
+PHP 7.1.14 Development Server started at Sun Apr  8 23:08:53 2018
+Listening on http://localhost:8000
+Document root is C:\laragon\www\laravelapp
+Press Ctrl-C to quit.
+
+http://localhost:8000/server.php/articles
+
+两种方式的表单验证：Request和validate
+php artisan make:request CreateArticleRequest
+                                                
+C:\laragon\www\laravelapp (master)              
+λ php artisan make:request CreateArticleRequest 
+Request created successfully.                   
+                                                
+C:\laragon\www\laravelapp (master)              
+
+C:\laragon\www\laravelapp\app\Http\Requests\CreateArticleRequest.php
+
+class CreateArticleRequest extends FormRequest
+{
+    
+    public function authorize()
+    {
+        return true;
+    }
+
+
+    public function rules()
+    {
+        return [
+            'title' => 'required|min:3',
+            'content' => 'required',
+            'published_at' => 'required'
+        ];
+    }
+
+
+   //Request验证
+    public function store(Requests\CreateArticleRequest $request){
+        Article::create($request->all()); //在model中预处理published_at
+        return redirect('/articles');
+    }
+    
+    //validate验证
+    public function store(Request $request)
+    {
+        //接收post过来的数据
+        //存入数据库
+        //重定向
+        //dd($request->get('title'));
+        //$input = $request->all();
+        //$input['published_at'] = Carbon::now();
+        //Article::create($input);
+        $this->validate($request, ['title'=>'required|min:3', 'content'=>'required', 'published_at'=>'required']);
+        Article::create($request->all()); //在model中预处理published_at
+        return redirect('/articles');
+    }
+
+表单修改
+C:\laragon\www\laravelapp\resources\views\articles\create.blade.php
+add:
+    @if($errors->any())
+        <ul class="list-group">
+            @foreach($errors->all() as $error)
+                <li class="list-group-item list-group-item-danger">{{ $error }}</li>
+            @endforeach
+        </ul>
+    @endif
+```
+
+
+
 
 -----------------------------------------------------
 
