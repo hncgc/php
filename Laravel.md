@@ -65,6 +65,47 @@ Laravel视频教程
 
 ------
 
+[Laravel教程 一：安装及环境配置](https://www.codecasts.com/blog/post/programming-with-laravel-5-installation-and-settings)  
+https://laravist.com/article/9  
+
+
+[Laravel教程 二：路由,视图,控制器工作流程](https://www.codecasts.com/blog/post/programming-with-laravel-5-routers-views-controllers-workflow}  
+https://laravist.com/article/10  
+
+
+[Laravel教程 三：视图变量传递和Blade](https://www.codecasts.com/blog/post/programming-with-laravel-5-blade-views-with-var)  
+https://laravist.com/article/11  
+
+[Laravel教程 四：数据库和Eloquent](https://www.codecasts.com/blog/post/programming-with-laravel-5-database-and-eloquent-model)  
+https://laravist.com/article/12  
+
+[Laravel教程 五：MVC的基本流程](https://www.codecasts.com/blog/post/programming-with-laravel-5-model-controller-view-basic-workflow)  
+https://laravist.com/article/13
+
+[Laravel教程 六：表单 Forms](https://www.codecasts.com/blog/post/programming-with-laravel-5-laravel-forms-input)  
+https://laravist.com/article/14  
+
+
+[Laravel教程 七：表单验证 Validation](https://www.codecasts.com/blog/post/programming-with-laravel-5-form-request-and-validation)  
+https://laravist.com/article/15  
+
+[Laravel教程 八：queryScope 和 setAttribute](https://www.codecasts.com/blog/post/programming-with-laravel-5-queryscope-and-set-attribute)  
+https://laravist.com/article/16  
+
+[Laravel教程 九：Eloquent Relationship](https://www.codecasts.com/blog/post/programming-with-laravel-5-eloquent-relatiosnhsip-many-to-many)  
+https://laravist.com/article/18  
+
+[Laravel教程 十：实现文章的修改](https://www.codecasts.com/blog/post/programming-with-laravel-5-blade-how-to-edit-article)  
+https://laravist.com/article/20  
+
+[在Laravel项目中实现Ajax上传用户头像](https://www.codecasts.com/blog/post/upload-file-with-ajax-in-laravel-project)  
+https://laravist.com/article/25  
+
+[从零开始部署一个 Laravel 站点](https://www.codecasts.com/blog/post/deploy-laravel-app-on-ubuntu-vps)  
+https://laravist.com/article/19  
+
+------
+
 [Laravel 5 系列入门教程（一）](http://www.golaravel.com/post/laravel-5-getting-started-part-1/)  
 https://lvwenhan.com/laravel/432.html  
 https://github.com/golaravel/laravel-versions
