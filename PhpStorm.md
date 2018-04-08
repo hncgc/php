@@ -45,9 +45,9 @@ phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
 
 ------
 
-[phpstorm代码片段使用方法]（https://blog.csdn.net/qq_15766181/article/details/48176845）  
+[phpstorm代码片段使用方法](https://blog.csdn.net/qq_15766181/article/details/48176845)  
 
-[图解phpstorm常用快捷键]（https://www.cnblogs.com/xp796/p/5718321.html）  
+[图解phpstorm常用快捷键](https://www.cnblogs.com/xp796/p/5718321.html)  
 ```
 #### 查询快捷键
 CTRL+N 查找类
