@@ -69,7 +69,7 @@ Laravel视频教程
 https://laravist.com/article/9  
 
 
-[Laravel教程 二：路由,视图,控制器工作流程](https://www.codecasts.com/blog/post/programming-with-laravel-5-routers-views-controllers-workflow}  
+[Laravel教程 二：路由,视图,控制器工作流程](https://www.codecasts.com/blog/post/programming-with-laravel-5-routers-views-controllers-workflow)  
 https://laravist.com/article/10  
 
 
