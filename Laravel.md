@@ -544,6 +544,85 @@ Route::get('articles/{id}', 'ArticlesController@show');
 Route::post('articles', 'ArticlesController@store');
 
 ```
+
+[视频：queryScope和setAttribute用法](https://www.codecasts.com/series/laravel-5-basic/episodes/10)  
+#### 在表单中添加published_at  
+```
+C:\laragon\www\laravelapp\resources\views\articles\create.blade.php
+
+    <!-- published_at Field -->
+    <div class="form-group">
+        {!! Form::label('published_at', 'Published_at: ') !!}
+        {!! Form::input('date', 'published_at', Date('Y-m-d'), ['class' => 'form-control']) !!}
+    </div>
+```
+#### 在model中设置published_at作为Carbon对象，预处理published_at，限定显示的条件scopePublished()在Controller中用published()调用
+```
+C:\laragon\www\laravelapp\app\Article.php
+class Article extends Model
+{
+    protected $fillable = ['title', 'content', 'published_at'];
+
+    //作为Carbon对象的字段
+    protected $dates = ['published_at'];
+
+    //预处理published_at
+    public function setPublishedAtAttribute($date){
+        //$this->attributes['published_at'] = date('Y-m-d H:i:s',$date->getTimestamp());
+        $this->attributes['published_at'] = Carbon::createFromFormat('Y-m-d',$date);
+    }
+
+    /**
+     * 在Controller中用在限定显示的条件，用published()调用
+     * @param $query
+     */
+    public function scopePublished($query){
+        $query->where('published_at', '<=', Carbon::now());
+    }
+}
+```
+
+#### 在ArticlesController中保存时在model中预处理published_at
+```
+C:\laragon\www\laravelapp\app\Http\Controllers\ArticlesController.php
+    public function store(Request $request)
+    {
+        //接收post过来的数据
+        //存入数据库
+        //重定向
+        //dd($request->get('title'));
+        //$input = $request->all();
+        //$input['published_at'] = Carbon::now();
+        //Article::create($input);
+        Article::create($request->all()); //在model中预处理published_at
+        return redirect('/articles');
+    }
+```
+
+#### 一条记录字段的属性及日期格式的多种显示
+```
+C:\laragon\www\laravelapp\app\Http\Controllers\ArticlesController.php
+     */
+    public function show($id)
+    {
+        $article = Article::findOrFail($id);
+        //dd($article);
+        dd($article->created_at);
+        dd($article->created_at->year);
+        dd($article->created_at->diffForHumans());
+        if (is_null($article)) {
+            abort('404');
+        }
+        return view('articles.show', compact('article'));
+    }
+```
+
+#### 以友好的方式显示
+```
+$article->published_at->diffForHumans()
+"50 minutes ago"
+```
+
 -----------------------------------------------------
 
 Laravel Vuejs
