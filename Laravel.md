@@ -546,6 +546,10 @@ Route::post('articles', 'ArticlesController@store');
 ```
 
 [视频：queryScope和setAttribute用法](https://www.codecasts.com/series/laravel-5-basic/episodes/10)  
+
+[Laravel 5系列教程八：queryScope 和 setAttribute](https://www.codecasts.com/blog/post/programming-with-laravel-5-queryscope-and-set-attribute)  
+http://www.360doc.com/content/16/1220/14/29401987_616271752.shtml  
+
 #### 在表单中添加published_at  
 ```
 C:\laragon\www\laravelapp\resources\views\articles\create.blade.php
@@ -780,6 +784,24 @@ C:\laragon\www
 [基于 Laravel 开发博客应用系列 —— 添加评论、RSS 订阅和站点地图功能实现](http://laravelacademy.org/post/2438.html)  
 
 -----------
+
+[2016 版 Laravel 系列入门教程（一）](http://www.golaravel.com/post/2016-ban-laravel-xi-lie-ru-men-jiao-cheng-yi/)  
+示例代码见：https://github.com/johnlui/Learn-Laravel-5  
+https://github.com/johnlui/Learn-Laravel-5/issues/4  
+
+[2016 版 Laravel 系列入门教程（二）](http://www.golaravel.com/post/2016-ban-laravel-xi-lie-ru-men-jiao-cheng-er/)  
+https://github.com/johnlui/Learn-Laravel-5/issues/5  
+
+[2016 版 Laravel 系列入门教程（三）](http://www.golaravel.com/post/2016-ban-laravel-xi-lie-ru-men-jiao-cheng-san/)  
+https://github.com/johnlui/Learn-Laravel-5/issues/6
+
+[2016 版 Laravel 系列入门教程（四）](http://www.golaravel.com/post/2016-ban-laravel-xi-lie-ru-men-jiao-cheng-si/)  
+https://github.com/johnlui/Learn-Laravel-5/issues/7
+
+[2016 版 Laravel 系列入门教程（五）【完结】](http://www.golaravel.com/post/2016-ban-laravel-xi-lie-ru-men-jiao-cheng-wu-zui-gua-he-zhong-guo-ren-de-laravel-jiao-cheng/)  
+https://github.com/johnlui/Learn-Laravel-5/issues/8  
+
+------
 
 [Laravel5 入门小项目详细教程](https://blog.csdn.net/sqzhao/article/details/46791207)  
 https://github.com/RryLee/StuGradeWithLaravel5  
