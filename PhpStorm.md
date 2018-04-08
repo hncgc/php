@@ -50,20 +50,20 @@ phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
 [图解phpstorm常用快捷键]（https://www.cnblogs.com/xp796/p/5718321.html）  
 ```
 #### 查询快捷键
-.CTRL+N 查找类
-.CTRL+SHIFT+N 全局搜索文件 ,优先文件名匹配的文件
-.CTRL+SHIFT+ALT+N 查找php类名/变量名 ,js方法名/变量名, css 选择
-.CIRL+B 找变量的来源，跳到变量申明处 (CTRL+ 鼠标单击 也可以)
-.CTRL+ALT+B 找到继承该接口或者父级 的所有子类, 统计所有子类个数
-.CTRL+SHIFT+B 找变量的类 
-.CTRL+F 在当前窗口查找文本
-.CTRL+SHIFT+F 在指定路径查找文本字符
-.CTRL+R 当前窗口替换文本
-.CTRL+SHIFT+R 在指定路径替换文本
-.CTRL+E 最近打开的文件
+CTRL+N 查找类
+CTRL+SHIFT+N 全局搜索文件 ,优先文件名匹配的文件
+CTRL+SHIFT+ALT+N 查找php类名/变量名 ,js方法名/变量名, css 选择
+CIRL+B 找变量的来源，跳到变量申明处 (CTRL+ 鼠标单击 也可以)
+CTRL+ALT+B 找到继承该接口或者父级 的所有子类, 统计所有子类个数
+CTRL+SHIFT+B 找变量的类 
+CTRL+F 在当前窗口查找文本
+CTRL+SHIFT+F 在指定路径查找文本字符
+CTRL+R 当前窗口替换文本
+CTRL+SHIFT+R 在指定路径替换文本
+CTRL+E 最近打开的文件
 
 #### 自动代码
-.CTRL+J 自动代码提示，自动补全
+CTRL+J 自动代码提示，自动补全
 ALT+回车 导入包,自动修正
 CTRL+ALT+L 格式化代码
 CTRL+ALT+I 自动缩进
@@ -191,6 +191,6 @@ F5 复制文件/文件夹
 F6 移动
 F11 切换书签
 F12 返回到以前的工具窗
-
+```
 
 
