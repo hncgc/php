@@ -40,5 +40,14 @@ Bootstrap
 
 [Bootstrap 优站精选](http://www.youzhan.org/)  
 
+-----
+
+## google fonts
+
+[Google Fonts | 谷歌字体中文版 | GoogleFonts](http://www.googlefonts.cn/)  
+
+[2018fonts.googleapis.com替代方案](https://blog.csdn.net/gaimingzhong/article/details/79328907)  
+
+[google fonts 国内使用解决方案](https://blog.csdn.net/yangzhai/article/details/68062891)  
 
 
