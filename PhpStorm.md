@@ -48,8 +48,8 @@ phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
 [phpstorm代码片段使用方法](https://blog.csdn.net/qq_15766181/article/details/48176845)  
 
 [图解phpstorm常用快捷键](https://www.cnblogs.com/xp796/p/5718321.html)  
-```
 #### 查询快捷键
+```
 CTRL+N 查找类
 CTRL+SHIFT+N 全局搜索文件 ,优先文件名匹配的文件
 CTRL+SHIFT+ALT+N 查找php类名/变量名 ,js方法名/变量名, css 选择
@@ -61,8 +61,9 @@ CTRL+SHIFT+F 在指定路径查找文本字符
 CTRL+R 当前窗口替换文本
 CTRL+SHIFT+R 在指定路径替换文本
 CTRL+E 最近打开的文件
-
+```
 #### 自动代码
+```
 CTRL+J 自动代码提示，自动补全
 ALT+回车 导入包,自动修正
 CTRL+ALT+L 格式化代码
@@ -74,8 +75,9 @@ CTRL+ALT+O 优化导入的类和包 需要配置
 CTRL+SHIFT+SPACE 切换窗口
 CTRL+SPACE空格 代码自动完成，代码提示,一般与输入法冲突
 CTRL+ALT+T 把选中的代码放在TRY{} IF{} ELSE{} 里
-
+```
 #### 复制快捷方式
+```
 F5 复制文件/文件夹
 CTRL+C 复制
 CTRL+V 粘贴
@@ -84,14 +86,16 @@ Ctrl + Y 删除行插入符号
 CTRL+D 复制行 , 快速分布li标签等
 CTRL+SHIFT+V 可以复制多个文本,将前几次复制的文本保存下来了
 SHIFT+F2 高亮错误或警告快速定位错误，多个错误循环高亮
-
+```
 #### 本地历史VCS/SVN
+```
 Ctrl + K 提交项目VCS
 Ctrl + T 更新项目从VCS
 Alt + Shift + C 查看项目最近文件版本变化文件 , CTRL+E 只是查看修改过的文件
 Alt + ` (table 上面的点) 快速弹出VCS菜单
-
+```
 ####其他快捷方式
+```
 CTRL+Z 倒退(代码后悔)
 CTRL+SHIFT+Z 向前
 CTRL+H 显示类层级关系图，继承/实现关系
@@ -117,8 +121,9 @@ SHIFT+F6 重命名,重构当前区域内变量重命名/重构
 不但可以重命名文件名，而且可以命名函数名，函数名可以搜索引用的文件，还可以重命名局部变量。还可以重命名标签名。
 alt +'7':显示当前的类/函数结构。类似于eclipse中的outline的效果。试验了一下，要比aptana的给力一些，但还是不能完全显示prototype下面的方法名。
 Alt + Shift + I 检查当前文件与当前的配置文件
-
+```
 #### 编辑
+```
 Ctrl + Q 快速文档查询
 ALT + INSERT 生成的代码...器（getter，setter方法，构造函数）
 Ctrl + O 覆盖方法
@@ -131,8 +136,9 @@ Ctrl + Enter 智能线分割（HTML和JavaScript）
 Shift + Enter 开始新的生产线
 Ctrl + Delete 删除字（word）
 Ctrl + Backspace 删除整个字 ,单纯Backspace单个字符删除
-
+```
 #### 运行
+```
 Alt + Shift + F10 选择的配置和运行
 Ctrl + Shift + X 运行命令行
 Alt + Shift + F9 选择配置和调试
@@ -157,8 +163,9 @@ Ctrl + Shift + F12 切换最大化编辑器
 Alt + Shift + F 添加到收藏夹
 Ctrl +反引号（`） 快速切换目前的配色/代码方案/快捷键方案/界面方案
 Ctrl + Alt + S 打开设置对话框（与QQ冲突）
-
+```
 #### 调试
+```
 F8步过
 F7步入
 Shift + F7智能进入
@@ -168,8 +175,9 @@ Alt + F8计算表达式
 F9恢复程序
 Ctrl + F8切换断点
 Ctrl + Shift + F8查看断点
-
+```
 #### 导航
+```
 Shift + Esc键隐藏活动或最后一个激活的窗口
 Ctrl + Shift + F4关闭活动运行/消息/ /...选项卡
 Ctrl + Shift + Backspace键导航到最后编辑的位置
@@ -177,8 +185,9 @@ Ctrl + Alt+B 到实施（S）
 Ctrl + Shift+I 打开快速定义查询
 Ctrl + U 转到super-method/super-class
 Alt + Home 组合显示导航栏
-
+```
 #### 书签
+```
 Ctrl + F11切换书签助记符
 Ctrl +＃[0-9]转到编号书签
 Shift + F11显示书签
