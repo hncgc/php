@@ -865,14 +865,14 @@ C:\laragon\www\laravelapp (master)
         $article = Article::findOrFail($id);
         return view('articles.edit', compact('article'));
     }
-
-    public function update(Request $request, $id)
-    {
+    /*
+    public function update(Request $request, $id) //未验证
+    {
         $article = Article::findOrFail($id);
         $article->update($request->all());
         return redirect('/articles');
     }
-
+    */
     public function update(Requests\CreateArticleRequest $request, $id)
     {
         $article = Article::findOrFail($id);
