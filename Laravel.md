@@ -1170,5 +1170,62 @@ https://blog.csdn.net/qq_25600055/article/details/52451138
 
 ---------------------------
 
+Laravel 控制器
+---
+
+[使用artisan命令创建控制器](https://blog.csdn.net/huang2017/article/details/69227310)  
+```
+C:\laragon\www\laravelapp (master)
+λ php artisan make:controller Admin/indexController
+Controller created successfully.
+
+创建Rest风格资源控制器（带有index、create、store、edit、update、destroy、show方法）
+C:\laragon\www\laravelapp (master)                           
+λ php artisan make:controller PhotoController --resource     
+Controller created successfully.                             
+```
+
+[RESTful 架构详解](http://www.runoob.com/w3cnote/restful-architecture.html)  
+                                                             
+[【Laravel】 常用的artisan命令](https://blog.csdn.net/jiandanokok/article/details/72897682)  
+
+Laravel model
+---
+
+[Laravel model层建立（以及控制器调用）](https://blog.csdn.net/woshihaiyong168/article/details/53228598)  
+
+[laravel框架中使用model层](https://blog.csdn.net/shenpengchao/article/details/51853650)  
+
+Laravel5.3初步使用
+---
+
+[Laravel5.3初步使用一（环境搭配（AppServ集成）、数据库配置、目录介绍）](https://blog.csdn.net/q393364227/article/details/74973490)  
+
+[Laravel5.3初步使用二（整体步骤、路由配置、Model层配置）](https://blog.csdn.net/q393364227/article/details/74988129)  
+
+[Laravel5.3初步使用三（View层、Controller层）](https://blog.csdn.net/q393364227/article/details/74990233)  
+
+[Laravel 5.3 windows环境安装 - CSDN博客](https://blog.csdn.net/u013855736/article/details/52556649)  
+
+[php最新Laravel框架5.3视频学习 - CSDN博客](https://blog.csdn.net/xiaoxiaodongxie/article/details/52622849)  
+
+[windows下,源码配置Laravel5.3 - CSDN博客](https://blog.csdn.net/haygon/article/details/54146373)  
+
+[Laravel5.3使用学习笔记---路由 - CSDN博客](https://blog.csdn.net/gavin_new/article/details/53469580)  
+
+[Laravel5.3使用学习笔记---中间件 - CSDN博客](https://blog.csdn.net/gavin_new/article/details/53492296)  
+
+-----
+
+[Laravel 数据库操作基础知识总结](https://blog.csdn.net/q393364227/article/details/78459809)  
+
+[Laravel5 内置登录注册使用教程   - CSDN博客](https://blog.csdn.net/iTechzero/article/details/77669637)  
+
+[laravel5 文件上传   - CSDN博客](https://blog.csdn.net/zhexienianlai/article/details/53888285)  
+
+[laravel5.5如何使用使用队列   - CSDN博客](https://blog.csdn.net/chen529834149/article/details/78894894)  
+
+[基于Laravel开发的CMS](https://blog.csdn.net/baochao95/article/details/72588461)  
+> Github: https://github.com/webbc/laravelcms
 
 
