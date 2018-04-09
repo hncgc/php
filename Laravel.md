@@ -790,6 +790,171 @@ add:
     @endif
 ```
 
+--------
+
+Laravel Form-Model-Binding
+---
+
+[Form-Model-Binding 视频](https://www.codecasts.com/series/laravel-5-basic/episodes/12)  
+
+[Laravel教程 十：实现文章的修改](https://www.codecasts.com/blog/post/programming-with-laravel-5-blade-how-to-edit-article)  
+
+#### 建立路由
+> Route::get('/articles/{id})/edit', 'ArticlesController@edit'); 
+> 或：
+> Route::get('/articles)/edit/{id}', 'ArticlesController@edit');
+
+#### 路由列表
+> php artisan route:list
+```
+C:\laragon\www\laravelapp (master)
+λ php artisan route:list
++--------+----------+--------------------+-------+------------------------------------------------+--------------+
+| Domain | Method   | URI                | Name  | Action                                         | Middleware   |
++--------+----------+--------------------+-------+------------------------------------------------+--------------+
+|        | GET|HEAD | /                  |       | Closure                                        | web          |
+|        | GET|HEAD | about              | about | App\Http\Controllers\AboutController@index     | web          |
+|        | GET|HEAD | api/user           |       | Closure                                        | api,auth:api |
+|        | GET|HEAD | articles           |       | App\Http\Controllers\ArticlesController@index  | web          |
+|        | POST     | articles           |       | App\Http\Controllers\ArticlesController@store  | web          |
+|        | GET|HEAD | articles/create    |       | App\Http\Controllers\ArticlesController@create | web          |
+|        | GET|HEAD | articles/{id}      |       | App\Http\Controllers\ArticlesController@show   | web          |
+|        | GET|HEAD | articles/{id}/edit |       | App\Http\Controllers\ArticlesController@edit   | web          |
+|        | GET|HEAD | myabout            |       | Closure                                        | web          |
++--------+----------+--------------------+-------+------------------------------------------------+--------------+
+```
+#### 由控件器直接生成路由
+> Route::resource('articles','ArticlesController');
+```
+C:\laragon\www\laravelapp\routes\web.php
+
+/*
+Route::get('articles', 'ArticlesController@index');
+Route::get('articles/create', 'ArticlesController@create');
+Route::get('articles/{id}', 'ArticlesController@show');
+Route::post('articles', 'ArticlesController@store');
+Route::get('articles/{id}/edit','ArticlesController@edit');
+*/
+Route::resource('articles','ArticlesController');
+```
+#### 路由列表
+```
+C:\laragon\www\laravelapp (master)
+λ php artisan route:list
++--------+-----------+-------------------------+------------------+-------------------------------------------------+--------------+
+| Domain | Method    | URI                     | Name             | Action                                          | Middleware   |
++--------+-----------+-------------------------+------------------+-------------------------------------------------+--------------+
+|        | GET|HEAD  | /                       |                  | Closure                                         | web          |
+|        | GET|HEAD  | about                   | about            | App\Http\Controllers\AboutController@index      | web          |
+|        | GET|HEAD  | api/user                |                  | Closure                                         | api,auth:api |
+|        | GET|HEAD  | articles                | articles.index   | App\Http\Controllers\ArticlesController@index   | web          |
+|        | POST      | articles                | articles.store   | App\Http\Controllers\ArticlesController@store   | web          |
+|        | GET|HEAD  | articles/create         | articles.create  | App\Http\Controllers\ArticlesController@create  | web          |
+|        | GET|HEAD  | articles/{article}      | articles.show    | App\Http\Controllers\ArticlesController@show    | web          |
+|        | PUT|PATCH | articles/{article}      | articles.update  | App\Http\Controllers\ArticlesController@update  | web          |
+|        | DELETE    | articles/{article}      | articles.destroy | App\Http\Controllers\ArticlesController@destroy | web          |
+|        | GET|HEAD  | articles/{article}/edit | articles.edit    | App\Http\Controllers\ArticlesController@edit    | web          |
+|        | GET|HEAD  | myabout                 |                  | Closure                                         | web          |
++--------+-----------+-------------------------+------------------+-------------------------------------------------+--------------+
+```
+#### 控件器修改
+> C:\laragon\www\laravelapp\app\Http\Controllers\ArticlesController.php
+```
+    public function edit($id)
+    {
+        $article = Article::findOrFail($id);
+        return view('articles.edit', compact('article'));
+    }
+
+    public function update(Request $request, $id)
+    {
+        $article = Article::findOrFail($id);
+        $article->update($request->all());
+        return redirect('/articles');
+    }
+
+    public function update(Requests\CreateArticleRequest $request, $id)
+    {
+        $article = Article::findOrFail($id);
+        $article->update($request->all());
+        return redirect('/articles');
+    }
+
+C:\laragon\www\laravelapp\app\Http\Requests\CreateArticleRequest.php
+    public function rules()
+    {
+        return [
+            'title' => 'required|min:3',
+            'content' => 'required',
+            'published_at' => 'required'
+        ];
+    }
+```
+#### 添加规则
+> C:\laragon\www\laravelapp\app\Http\Requests\CreateArticleRequest.php
+```
+    public function rules()
+    {
+        $rules = [
+            'title' => 'required|min:3',
+            'content' => 'required',
+            'published_at' => 'required'
+        ];
+//        if(isEdit()){
+//            $rules['something'] = 'required';
+//        }
+        return $rules;
+    }
+```
+#### 建立修改表单
+> C:\laragon\www\laravelapp\resources\views\articles\form.blade.php
+```
+<div class="form-group">
+    {!! Form::label('title', 'Titel:') !!}
+    {!! Form::text('title', null, ['class' => 'form-control']) !!}
+</div>
+<!--- Content Field --->
+<div class='form-group'>
+    {!! Form::label('content', 'Content:') !!}
+    {!! Form::textarea('content', null, ['class' => 'form-control']) !!}
+</div>
+<!-- published_at Field -->
+<div class="form-group">
+    {!! Form::label('published_at', '发布日期: ') !!}
+    {!! Form::input('date', 'published_at', Date('Y-m-d'), ['class' => 'form-control']) !!}
+</div>
+{!! Form::submit('发表文章', ['class' => 'btn btn-primary form-control']) !!}
+
+C:\laragon\www\laravelapp\resources\views\errors\list.blade.php
+@if($errors->any())
+    <ul class="list-group">
+        @foreach($errors->all() as $error)
+            <li class="list-group-item list-group-item-danger">{{ $error }}</li>
+        @endforeach
+    </ul>
+@endif
+
+C:\laragon\www\laravelapp\resources\views\articles\create.blade.php
+@extends('layouts.app')
+@section('content')
+    <h1>撰写新文章</h1>
+    {!! Form::open(['url' => 'articles']) !!}
+    @include('articles.form');
+    {!! Form::close() !!}
+    @include('errors.list')
+@endsection
+
+C:\laragon\www\laravelapp\resources\views\articles\edit.blade.php
+@extends('layouts.app')
+@section('content')
+    <h1>修改文章</h1>
+    {!! Form::model($article, ['method' => 'PATCH', 'url'=>'/articles/'.$article->id]) !!}
+    @include('articles.form')
+    {!! Form::close() !!}
+    @include('errors.list')
+@endsection
+```
+
 
 
 
