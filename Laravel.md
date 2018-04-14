@@ -322,10 +322,32 @@ Laravel Form-Model-Binding
 用户注册和登录--Laravel 5.1
 ---
 
-Laravel 5.1 视频基础教程 >> 用户注册和登录
-https://www.codecasts.com/series/laravel-5-basic/episodes/13
+[Laravel 5.1 视频基础教程 >> 用户注册和登录](https://www.codecasts.com/series/laravel-5-basic/episodes/13)  
 
------------------------
+用户注册和登录 -- Lavarel 5.6.3
+---
+
+[Laravel 5.1用户认证（一） —— 使用Laravel内置组件快速实现注册登录](http://laravelacademy.org/post/1258.html)  
+
+[[Laravel 5.2]二、注册、登陆及用户认证](https://blog.csdn.net/scargtt/article/details/51428141)  
+
+[laravel 5.3 单用户登录简单实现](https://blog.csdn.net/qq_35059693/article/details/54943485)  
+
+[Laravel 5.3 不同用户表登录认证](https://blog.csdn.net/realghost/article/details/52512268)  
+
+[Laravel 5.3 使用内置的 Auth 组件实现多用户认证功能以及登陆才能访问后台的功能的一种实现方法](https://blog.csdn.net/kevinbai_cn/article/details/54341779)  
+
+[laravel身份验证-Auth的使用](https://blog.csdn.net/li_haijiang/article/details/71603994)  
+
+[laravel的Auth认证，登录、注册后的页面回跳](https://blog.csdn.net/beyond__devil/article/details/76212267)  
+
+[Laravel 重写用户登录](https://blog.csdn.net/hxx_yang/article/details/51891336)  
+
+[Laravel5.4注册登录解析及使用教程](https://blog.csdn.net/gu_wen_jie/article/details/77428484)  
+
+Middleware
+
+----------
 
 Laravel 富文本编辑
 ---
