@@ -133,13 +133,14 @@ Laravel Migration
 [[ Laravel 5.6 文档 ] 数据库操作 —— 快速入门](http://laravelacademy.org/post/8830.html)  
 
 [laravel之Migration的操作](https://segmentfault.com/a/1190000008659390)  
-
+> 创建表
+> php artisan make:migration create_table_users --create=users
 ```
 检查根目录的.env文件
 //查看框架版本
 php artisan --version
 //创建表 
-php artisan make:migration create_table_users --create=users;
+php artisan make:migration create_table_users --create=users
 //查看创建表语句 
 php artisan migrate --pretend 
 //回滚操作 撤销
