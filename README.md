@@ -25,6 +25,7 @@
 -------------------
 
 [PHP 标准规范中文版](https://psr.phphub.org/)  
+http://www.php-fig.org/ 
 
 [PHP必读](https://laravel-china.github.io/php-the-right-way/)  
 
@@ -32,6 +33,7 @@
 
 [PHP 教程 | 菜鸟教程](http://www.runoob.com/php/php-tutorial.html)  
 
+[env环境设置类](https://github.com/vlucas/phpdotenv)  
 
 [2017年最流行的5个php开发框架视频教程推荐](http://www.php.cn/toutiao-361828.html)  
 
