@@ -283,9 +283,6 @@ https://www.codecasts.com/blog/post/programming-with-laravel-5-laravel-forms-inp
 创建数据表单
 ---
 
-## 创建表单并保存  
-```
-
 [视频：queryScope和setAttribute用法](https://www.codecasts.com/series/laravel-5-basic/episodes/10)  
 
 [Laravel 5系列教程八：queryScope 和 setAttribute](https://www.codecasts.com/blog/post/programming-with-laravel-5-queryscope-and-set-attribute)  
