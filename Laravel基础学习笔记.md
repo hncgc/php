@@ -1115,7 +1115,7 @@ C:\laragon\www\laravelapp\vendor\laravel\framework\src\Illuminate\Foundation\Aut
 ```
 laravel5.6注销路由：成功 
 Route::get('/logout', 'Auth\LoginController@logout'); 
-
+```
 [Laravel5.4的应用目录结构](https://blog.csdn.net/gu_wen_jie/article/details/59518376)  
 
 ## Eloquent Relationship
@@ -1251,6 +1251,7 @@ public function articles()
 
 利用tinker在表Tags中插入数据
 ---
+
 ```
 C:\laragon\www\laravelapp (master)
 λ php artisan tinker
