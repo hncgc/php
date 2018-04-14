@@ -956,6 +956,88 @@ C:\laragon\www\laravelapp\resources\views\articles\edit.blade.php
 ```
 
 
+用户注册和登录--Laravel 5.1
+---
+
+Laravel 5.1 视频基础教程 >> 用户注册和登录
+https://www.codecasts.com/series/laravel-5-basic/episodes/13
+
+#### 注册路由
+```
+Laravel 5.1:
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
+
+Laravel 5.6.3:
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/logout', 'Auth\LoginController@logout');
+```
+#### 登录表单
+```
+C:\laragon\www\laravelapp\resources\views\auth\login.blade.php
+@extends('layouts.app')
+@section('content')
+    <div class="col-md-4 col-md-offset-4">
+        {!! Form::open(['url'=>'/auth/login']) !!}
+        <!-- Email Field -->
+        <div class="form-group">
+            {!! Form::label('email', 'Email:') !!}
+            {!! Form::email('email', null, ['class' => 'form-control']) !!}
+        </div>
+        <!-- Password Field -->
+        <div class="form-group">
+            {!! Form::label('password', 'Password:') !!}
+            {!! Form::password('password', ['class' => 'form-control']) !!}
+        </div>
+        {!! Form::submit('登录', ['class'=>'btn btn-primary form-control']
+        {!! Form::close() !!}
+    </div>
+@stop
+```
+#### 注册表单
+```
+C:\laragon\www\laravelapp\resources\views\auth\register.blade.php
+@extends('layouts.app')
+@section('content')
+    <div class="col-md-4 col-md-offset-4">
+        {!! Form::open(['url'=>'/auth/register']) !!}
+        <!-- Email Field -->
+        <div class="form-group">
+            {!! Form::label('name', 'Name:') !!}
+            {!! Form::email('name', null, ['class' => 'form-control']) !!}
+        </div>
+        <div class="form-group">
+            {!! Form::label('email', 'Email:') !!}
+            {!! Form::email('email', null, ['class' => 'form-control']) !!}
+        </div>
+        <!-- Password Field -->
+        <div class="form-group">
+            {!! Form::label('password', 'Password:') !!}
+            {!! Form::password('password', ['class' => 'form-control']) !!}
+        </div>
+        <!-- Password_confirmation Field -->
+        <div class="form-group">
+            {!! Form::label('password_confirmation', 'Password confirmation:') !!}
+            {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}
+        </div>
+        {!! Form::submit('注册', ['class'=>'btn btn-primary form-control']
+        {!! Form::close() !!}
+    </div>
+@stop
+```
+> 注册成功后跳到 http://localhost:8000/home 出错，原因是没有这个路由
+
+#### 修复错误
+```
+在AuthController中添加：
+
+    protected $redirectTo = '/articles';
+```
+
 
 
 -----------------------------------------------------
