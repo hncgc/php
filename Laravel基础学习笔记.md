@@ -931,3 +931,219 @@ C:\laragon\www\laravelapp\resources\views\auth\register.blade.php
 
     protected $redirectTo = '/articles';
 ```
+----------------
+
+用户注册和登录 -- Lavarel 5.6.3
+---
+
+Laravel 5.1用户认证（一） —— 使用Laravel内置组件快速实现注册登录
+http://laravelacademy.org/post/1258.html
+
+[Laravel 5.2]二、注册、登陆及用户认证
+https://blog.csdn.net/scargtt/article/details/51428141
+
+laravel 5.3 单用户登录简单实现
+https://blog.csdn.net/qq_35059693/article/details/54943485
+
+Laravel 5.3 不同用户表登录认证
+https://blog.csdn.net/realghost/article/details/52512268
+
+Laravel 5.3 使用内置的 Auth 组件实现多用户认证功能以及登陆才能访问后台的功能的一种实现方法
+https://blog.csdn.net/kevinbai_cn/article/details/54341779
+
+laravel身份验证-Auth的使用
+https://blog.csdn.net/li_haijiang/article/details/71603994
+
+laravel的Auth认证，登录、注册后的页面回跳
+https://blog.csdn.net/beyond__devil/article/details/76212267
+
+Laravel 重写用户登录
+https://blog.csdn.net/hxx_yang/article/details/51891336
+
+Laravel5.4注册登录解析及使用教程
+https://blog.csdn.net/gu_wen_jie/article/details/77428484
+
+Middleware
+
+
+```
+C:\laragon\www\laravelapp (master)
+λ php artisan make:auth
+
+ The [layouts/app.blade.php] view already exists. Do you want to replace it? (yes/no) [no]:
+ > no
+
+Authentication scaffolding generated successfully.
+
+C:\laragon\www\laravelapp (master)
+λ
+
+生成：
+C:\laragon\www\laravelapp\app\Http\Controllers\HomeController.php
+
+C:\laragon\www\laravelapp\resources\views\auth
+C:\laragon\www\laravelapp\resources\views\auth\login.blade.php
+C:\laragon\www\laravelapp\resources\views\auth\register.blade.php
+C:\laragon\www\laravelapp\resources\views\auth\passwords
+C:\laragon\www\laravelapp\resources\views\auth\passwords\email.blade.php
+C:\laragon\www\laravelapp\resources\views\auth\passwords\reset.blade.php
+C:\laragon\www\laravelapp\resources\views\home.blade.php
+
+C:\laragon\www\laravelapp\routes\web.php
+
+增加：
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+        new file:   app/Http/Controllers/HomeController.php
+        new file:   resources/views/auth/login.blade.php
+        new file:   resources/views/auth/passwords/email.blade.php
+        new file:   resources/views/auth/passwords/reset.blade.php
+        new file:   resources/views/auth/register.blade.php
+        new file:   resources/views/home.blade.php
+        modified:   resources/views/welcome.blade.php
+
+C:\laragon\www\laravelapp (master)
+λ php artisan serve
+Laravel development server started: <http://127.0.0.1:8000>
+[Wed Apr 11 01:40:49 2018] 127.0.0.1:58825 [200]: /favicon.ico
+
+C:\laragon\www\laravelapp\resources\views\welcome.blade.php
+
+                @auth
+                    <a href="{{ url('/home') }}">Home</a>
+                @else
+                    <a href="{{ route('login') }}">Login</a>
+                    <a href="{{ route('register') }}">Register</a>
+                @endauth
+
+
+http://127.0.0.1:8000
+http://127.0.0.1:8000/home
+http://127.0.0.1:8000/login
+http://127.0.0.1:8000/register
+http://127.0.0.1:8000/home
+Dashboard
+You are logged in!    
+
+注销
+http://127.0.0.1:8000/logout
+Symfony \ Component \ HttpKernel \ Exception \ MethodNotAllowedHttpException 
+
+C:\laragon\www\laravelapp\routes\web.php
+
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/logout', 'Auth\LoginController@logout');
+
+C:\laragon\www\laravelapp\app\Http\Controllers\Auth\LoginController.php
+    use AuthenticatesUsers;
+
+    /**
+     * Where to redirect users after login.
+     * 登录成功后跳转地址
+     * @var string
+     */
+    protected $redirectTo = '/home';
+    // 退出后跳转地址
+    protected $redirectAfterLogout = '/login';
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('guest')->except('logout');
+    }
+
+Auth::routes(); 
+定义在vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php文件中
+
+C:\laragon\www\laravelapp\vendor\laravel\framework\src\Illuminate\Support\Facades\Auth.php
+
+    /**
+     * Register the typical authentication routes for an application.
+     *
+     * @return void
+     */
+    public static function routes()
+    {
+        static::$app->make('router')->auth();
+    }
+
+C:\laragon\www\laravelapp\vendor\laravel\framework\src\Illuminate\Routing\Router.php
+
+   public function auth()
+    {
+        // Authentication Routes...
+        $this->get('login', 'Auth\LoginController@showLoginForm')->name('login');
+        $this->post('login', 'Auth\LoginController@login');
+        $this->post('logout', 'Auth\LoginController@logout')->name('logout');
+
+        // Registration Routes...
+        $this->get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+        $this->post('register', 'Auth\RegisterController@register');
+
+        // Password Reset Routes...
+        $this->get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
+        $this->post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
+        $this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
+        $this->post('password/reset', 'Auth\ResetPasswordController@reset');
+    }
+
+
+C:\laragon\www\laravelapp\vendor\laravel\framework\src\Illuminate\Foundation\Auth\AuthenticatesUsers.php
+
+    public function logout(Request $request)
+    {
+        $this->guard()->logout();
+
+        $request->session()->invalidate();
+
+        return redirect('/');
+    }
+
+```
+
+Laravel5.2 Auth认证退出失效
+https://blog.csdn.net/fationyyk/article/details/51514366
+
+Laravel自带的anth认证中logout无效
+https://blog.csdn.net/darry_zhao/article/details/52689623
+
+laravel5.6注销路由：成功
+Route::get('/logout', 'Auth\LoginController@logout');
+
+Laravel5.4的应用目录结构
+https://blog.csdn.net/gu_wen_jie/article/details/59518376
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
