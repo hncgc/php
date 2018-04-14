@@ -1109,17 +1109,358 @@ C:\laragon\www\laravelapp\vendor\laravel\framework\src\Illuminate\Foundation\Aut
 
 ```
 
-Laravel5.2 Auth认证退出失效
-https://blog.csdn.net/fationyyk/article/details/51514366
+[Laravel5.2 Auth认证退出失效](https://blog.csdn.net/fationyyk/article/details/51514366)  
 
-Laravel自带的anth认证中logout无效
-https://blog.csdn.net/darry_zhao/article/details/52689623
+[Laravel自带的anth认证中logout无效](https://blog.csdn.net/darry_zhao/article/details/52689623)  
+```
+laravel5.6注销路由：成功 
+Route::get('/logout', 'Auth\LoginController@logout'); 
 
-laravel5.6注销路由：成功
-Route::get('/logout', 'Auth\LoginController@logout');
+[Laravel5.4的应用目录结构](https://blog.csdn.net/gu_wen_jie/article/details/59518376)  
 
-Laravel5.4的应用目录结构
-https://blog.csdn.net/gu_wen_jie/article/details/59518376
+## Eloquent Relationship
+
+[Laravel教程 九：Eloquent Relationship](https://www.codecasts.com/blog/post/programming-with-laravel-5-eloquent-relatiosnhsip-many-to-many)  
+
+添加标签
+---
+
+#### 创建表
+```
+php artisan make:migration create_table_tags --create=tags 
+
+C:\laragon\www\laravelapp (master)
+λ php artisan make:migration create_table_tags --create=tags
+Created Migration: 2018_04_14_200052_create_table_tags
+```
+#### 增加name字段
+```
+C:\laragon\www\laravelapp\database\migrations\2018_04_14_200052_create_table_tags.php
+    public function up()
+    {
+        Schema::create('tags', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('namw');			//应为name
+            $table->timestamps();
+        });
+    }
+
+C:\laragon\www\laravelapp (master)
+λ php artisan migrate
+Migrating: 2018_04_14_200052_create_table_tags
+Migrated:  2018_04_14_200052_create_table_tags
+```
+#### 为tags表创建一个Tag模型:
+```
+php artisan make:model Tag
+C:\laragon\www\laravelapp (master)
+λ php artisan make:model Tag
+Model created successfully.
+
+C:\laragon\www\laravelapp (master)
+λ
+C:\laragon\www\laravelapp\app\Tag.php
+
+class Tag extends Model
+{
+    protected $fillable = ['name'];
+}
+```
+#### 创建关系表article_tag
+```
+这个表只存tag_id和article_id
+php artisan make:migration create-article_tag-table  --create=article_tag
+C:\laragon\www\laravelapp (master)
+λ php artisan make:migration create-article_tag-table  --create=article_tag
+Created Migration: 2018_04_14_202340_create-article_tag-table
+
+C:\laragon\www\laravelapp\database\migrations\2018_04_14_202340_create-article_tag-table.php
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('article_tag', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('article_id')->unsigned()->index();
+            $table->foreign('article_id')->references('id')->on('articles')->onDelete('cascade');	//外键
+            $table->integer('tag_id')->unsigned()->index();
+            $table->foreign('tag_id')->references('id')->on('tags')->onDelete('cascade');               //外键
+            $table->timestamps();
+        });
+
+C:\laragon\www\laravelapp (master)
+λ php artisan migrate
+Migrating: 2018_04_14_202340_create-article_tag-table
+Migrated:  2018_04_14_202340_create-article_tag-table
+```
+#### 发现tags表字段name误写成了namw,2次回滾：
+```
+C:\laragon\www\laravelapp (master)
+λ php artisan migrate:rollback
+Rolling back: 2018_04_14_202340_create-article_tag-table
+Rolled back:  2018_04_14_202340_create-article_tag-table
+
+C:\laragon\www\laravelapp (master)
+λ php artisan migrate:rollback
+Rolling back: 2018_04_14_200052_create_table_tags
+Rolled back:  2018_04_14_200052_create_table_tags
+
+C:\laragon\www\laravelapp\database\migrations\2018_04_14_200052_create_table_tags.php
+    public function up()
+    {
+        Schema::create('tags', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name');       //namw改为name
+            $table->timestamps();
+        });
+    }
+
+C:\laragon\www\laravelapp (master)
+λ php artisan migrate
+Migrating: 2018_04_14_200052_create_table_tags
+Migrated:  2018_04_14_200052_create_table_tags
+Migrating: 2018_04_14_202340_create-article_tag-table
+Migrated:  2018_04_14_202340_create-article_tag-table
+```
+声明Eloquent的关系
+---
+```
+Articles 和 Tags 是多对多的关系，在Article.php中声明下面的关系：
+C:\laragon\www\laravelapp\app\Article.php
+public function tags()
+{
+    return $this->belongsToMany('App\Tag');
+}
+
+在Tag.php，也同样：
+C:\laragon\www\laravelapp\app\Tag.php
+public function articles()
+{
+    return $this->belongsToMany('App\Article');
+}
+
+使用$this->belongsToMany()来表明Eloquent的关系，这里需要注意的是如果你的外键并不是article_id和tag_id，你需要在第三个参数进行设置，写成类似下面这样：
+public function articles()
+{
+    return $this->belongsToMany('App\Article','conversation_id');
+}
+```
+
+利用tinker在表Tags中插入数据
+---
+```
+C:\laragon\www\laravelapp (master)
+λ php artisan tinker
+Psy Shell v0.8.18 (PHP 7.1.14 — cli) by Justin Hileman
+>>> $tag = new App\Tag;
+=> App\Tag {#780}
+>>> $tag['name'] = 'Java';
+=> "Java"
+>>> $tag->save();
+>>> $tag = new App\Tag;
+=> App\Tag {#776}
+>>> $tag['name'] = 'Php';
+=> "Php"
+>>> $tag->save();
+=> true
+>>> $tag = new App\Tag;
+=> App\Tag {#780}
+>>> $tag['name'] = 'Python';
+=> "Python"
+>>> $tag->save();
+=> true
+>>> $tag = new App\Tag;
+=> App\Tag {#776}
+>>> $tag['name'] = 'C';
+=> "C"
+>>> $tag->save();
+=> true
+>>> $tag = new App\Tag;
+=> App\Tag {#780}
+>>> $tag['name'] = 'C++';
+=> "C++"
+>>> $tag->save();
+=> true
+>>>
+```
+
+使用Select2
+---
+
+官网：http://select2.github.io/ 
+
+https://github.com/select2
+
+[Select2 下载](https://github.com/select2/select2/releases)  
+https://github.com/select2/select2/archive/3.5.3.zip 
+
+[Select2 用法](https://select2.github.io/examples.html)  
+
+[Select2 3.5.3文档](http://select2.github.io/select2/)  
+
+[select2 使用教程（简）](https://blog.csdn.net/jiangeeq/article/details/53116791)  
+
+[Select2使用方法汇总](https://www.cnblogs.com/zevfang/p/7641904.html)  
+
+[Select2下拉框总结](https://www.cnblogs.com/liuxiaobo93/p/5112993.html)  
+
+[select2 使用笔记](https://blog.csdn.net/u014388408/article/details/50587405)  
+
+[jquery下载](https://jquery.com/download/)  
+https://github.com/jquery/jquery
+[jquery-2.1.0.min.js微盘下载](http://vdisk.weibo.com/s/sX83nX3JAfFM5)  
+```
+下载select2:https://github.com/select2/select2/archive/3.5.3.zip 
+解压后将select2.css、select2.min.js、jquery-2.1.0.min.js拷入项目
+C:\laragon\www\laravelapp\public\css\select2.css
+C:\laragon\www\laravelapp\public\js\select2.min.js
+C:\laragon\www\laravelapp\public\js\jquery-2.1.0.min.js
+```
+在app.blade.php引入Select2的css文件和js文件
+---
+```
+C:\laragon\www\laravelapp\resources\views\layouts\app.blade.php
+
+<link rel='stylesheet' href="/css/select2.css" type='text/css' media='all'/>
+<script src="/js/jquery-2.1.0.min.js"></script>
+<script src="/js/select2.min.js"></script>
+
+articles/create.blade.php文件，在published_at下面添加一个输入表单：
+
+C:\laragon\www\laravelapp\resources\views\articles\form.blade.php
+
+<div class="form-group">
+    {!! Form::label('tag_list','选择标签') !!}
+    {!! Form::select('tag_list[]',$tags,null,['class'=>'form-control js-example-basic-multiple','multiple'=>'multiple']) !!}
+</div>
+
+tag_list[]，如果我们只是使用tag_list,就只能选到一个标签，如果我们需要选择多个，我们需要已数组的形式来储存我们的标签，还有一个就是指定一下'multiple'=>'multiple'，就是开启支持多选模式。然后$tags就是我们需要从数据库获tags表取到得数据，所以自然而然，我们到ArticleController中的create()方法中，稍微修改一下代码：
+C:\laragon\www\laravelapp\app\Http\Controllers\ArticlesController.php
+
+use App\Tag;
+...
+    public function create()
+    {
+        //return view('articles.create');
+        $tags = Tag::lists('name', 'id');
+        //为了在界面中显示标签name，id为了在保存文章的时候使用。
+        return view('articles.create',compact('tags'));
+    }
+
+运行创建文章出错：
+
+Method Illuminate\Database\Query\Builder::lists does not exist.
+```
+[Laravel 5.3 没有 lists 方法了吗？](https://laravel-china.org/topics/2867/laravel-53-no-lists-method-yet)  
+```
+从 Laravel 5.3 起，lists 方法会废弃，使用 pluck 方法作为替换：
+Model::orderBy('created_at')->pluck('id');
+```
+
+```
+ArticlesController.php 修改为：
+    public function create()
+    {
+        //return view('articles.create');
+        //$tags = Tag::all();
+        //$tags = Tag::list('name', 'id');  //lists 在5.3中弃用
+        $tags = Tag::orderBy('id')->pluck('name', 'id');
+        //为了在界面中显示标签name，id为了在保存文章的时候使用。
+        return view('articles.create',compact('tags'));
+    }
+
+
+运行后发表文章选择TAG源码HTML：
+<div class="form-group">
+    <label for="tag_list">选择标签</label>
+    <select class="form-control js-example-basic-multiple" multiple="multiple" name="tag_list[]"><option value="1">Java</option><option value="2">Php</option><option value="3">Python</option><option value="4">C</option><option value="5">C++</option></select>
+</div>
+
+
+这时候我们发现，样式并没有Select2那么好看，那是因为我们还没有初始化Select2，所以我们在create.blade.php写几行简单地js代码：
+
+C:\laragon\www\laravelapp\resources\views\articles\create.blade.php
+......
+    <script type="text/javascript">
+        $(function() {
+            $(".js-example-basic-multiple").select2({
+                placeholder: "添加标签"
+            });
+        });
+    </script>
+@endsection
+
+很完美，我们将整个UI完善得还不错，我们用dd();来看看我们表单提交过来的是什么，在ArticleController中的store()方法中添加一行代码：
+
+dd($request->all());
+我们来看看效果：
+
+array:5 [▼
+  "_token" => "X9GJVfYmquEQIgK9xZymXOB2sVUSpMq1T945VdEV"
+  "title" => "中国人最伟大"
+  "content" => "文章内容部分"
+  "published_at" => "2018-04-15"
+  "tag_list" => array:3 [▼
+    0 => "2"
+    1 => "3"
+    2 => "5"
+  ]
+]
+
+得tag_list数组，里面的值是标签的id，可以使用laravel提供的attach()来添加标签，attach()接受一个id的数组,稍微来修改一下store()方法：
+    public function store(Requests\CreateArticleRequest $request){
+        //dd($request->all());
+        Article::create($request->all()); //在model中预处理published_at
+        return redirect('/articles');
+    }
+改为：
+    public function store(Requests\CreateArticleRequest $request){
+        //dd($request->all());
+        //Article::create($request->all()); //在model中预处理published_at
+        $input = $request->all();
+        $article = Article::create($input);
+        $article->tags()->attach($request->input('tag_list'));
+        return redirect('/articles');
+    }
+
+首先将Article::create($input)赋予$article变量(Eloquent对象)，然后使用$article->tags()->attach()来添加标签，并将我们的标签数组传给attach()方法
+
+article_tag表中created_at和updated_at有点问题，我们来修复一下，在Article.php中的tags()方法中：
+
+    public function tags()
+    {
+        //return $this->belongsToMany('App\Tag');
+        return $this->belongsToMany('App\Tag')->withTimestamps();
+    }
+```
+在视图中显示tags
+---
+```
+在articles/index.blade.php中，我们来将文件的标签输出一下：
+
+<h2 class="post-title pad">
+<a href="/articles/{{ $article->id }}"> {{ $article->title }}</a>
+</h2>
+<ul class="post-meta pad group">
+<li><i class="fa fa-clock-o"></i>{{ $article->published_at->diffForHumans() }}</li>
+@if($article->tags)
+    @foreach($article->tags as $tag)
+        <li><i class="fa fa-tag"></i>{{ $tag->name }}</li>
+    @endforeach
+@endif
+</ul>
+```
+时间改为中文
+---
+```
+多少分钟之前都是英文，是因为没有设置Carbon，修复一下，在app/Providers/AppServiceProvider.php中的boot()方法添加下面这一行：
+C:\laragon\www\laravelapp\app\Providers\AppServiceProvider.php
+
+\Carbon\Carbon::setLocale('zh');
+```
 
 
 
