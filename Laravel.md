@@ -65,6 +65,10 @@ Laravel视频教程
 
 ------
 
+[Laravel基础学习笔记 原创](https://github.com/hncgc/php/blob/master/Laravel%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)  
+
+------
+
 [Laravel教程 一：安装及环境配置](https://www.codecasts.com/blog/post/programming-with-laravel-5-installation-and-settings)  
 https://laravist.com/article/9  
 
@@ -151,11 +155,6 @@ C:\laragon\www\laravelapp\vendor\laravel\framework
 
 [laravel中文手册](https://cs.laravel-china.org/)  
 
-[PHP 标准规范中文版](https://psr.phphub.org/  )  
-http://www.php-fig.org/  
-
-[env环境设置类](https://github.com/vlucas/phpdotenv)  
-
 [php artisan常用方法](https://my.oschina.net/u/1186749/blog/643850)  
 ```
 1、生成控制器
@@ -240,29 +239,6 @@ https://laravel.com/docs/5.1/eloquent
 [[ Laravel 5.6 文档 ] Eloquent ORM —— 快速入门](http://laravelacademy.org/post/8855.html)  
 
 [使用 Php Artisan Tinker 来调试你的 Laravel](https://www.jianshu.com/p/9cc3d8df614f)  
-
-```
-php artisan tinker
->>>$article = new App\Artilc;
->>>$article->title = "My first title";
->>>$article->published_at = Carbon\Carbon::now();
->>>$article->save();
->>>$article->toArray();
->>>$first=App\Article::find(1);
->>>$first->title="Update";
->>>$first->save();
->>>$second=App\Article::where('content','=','content')->get();
->>>$second=App\Article::where('content','content')->get();
->>>$second=App\Article::where('content','contenr')->first();
->>>$article=App\Article::create(['title'=>'Second Title','content'=>'Second Content','published_at'=>Carbom\Carbon::new()]);
-
-退出tinker
-重启tinker:
->>>$article=App\Article::create(['title'=>'Second Title','content'=>'Second Content','published_at'=>Carbom\Carbon::new()]);
->>>$article->update('title'=>'Change Second Title');
-
->>>$first = App\Article::find(1);
->>>$first->delete();
 
 [Laravel Eloquent](https://laravel.com/docs/5.6/eloquent)   
 
