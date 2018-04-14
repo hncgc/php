@@ -79,11 +79,9 @@ php -S localhost:8000
 Homestead
 ---------
 
-laravel Homestead window安装过程
-https://www.jianshu.com/p/c57cac7ce1e8
+[laravel Homestead window安装过程](https://www.jianshu.com/p/c57cac7ce1e8)  
 
-Mac - laravel使用 -- Homestead环境搭建【VPN】
-https://www.jianshu.com/p/b7ad926b326a
+[Mac - laravel使用 -- Homestead环境搭建【VPN】](https://www.jianshu.com/p/b7ad926b326a)  
 
 ----------------------
 
