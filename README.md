@@ -24,6 +24,22 @@
 
 -------------------
 
+[PHP 手册](http://php.net/manual/zh/index.php)  
+
+[PHP 函数参考](http://php.net/manual/zh/funcref.php)  
+
+[PHP 标准库(SPL)](http://php.net/spl)  
+
+[PHP 数据库扩展](http://php.net/manual/zh/refs.database.php)  
+
+[PHP 日期与时间相关扩展](http://php.net/manual/zh/refs.calendar.php)  
+
+[PHP 加密扩展](http://php.net/manual/zh/refs.crypto.php)  
+
+[PHP 文件系统相关扩展](http://php.net/manual/zh/refs.fileprocess.file.php)  
+
+----
+
 [PHP 标准规范中文版](https://psr.phphub.org/)  
 http://www.php-fig.org/ 
 
@@ -75,6 +91,10 @@ php -S localhost:8000
 ```
 
 ------------------------------
+
+[EasyPHP](http://www.easyphp.org)  
+
+----------------------------
 
 ## PHP 设计模式
 
@@ -167,6 +187,18 @@ php -S localhost:8000
 [Laravel 中管道设计模式的使用 —— 中间件实现原理探究](http://laravelacademy.org/post/3088.html)  
 
 [在 Laravel 5 中使用 Repository 模式实现业务逻辑和数据访问的分离](http://laravelacademy.org/post/3063.html)  
+
+
+[大话PHP设计模式（视频）](https://www.imooc.com/learn/236)  
+
+> 5.2 增加自动加载类
+> 5.3 增加命名空间
+### PSR-0规范  
+> 1. 命名空间必须与绝对路径一致
+> 2. 类名首字母必须大写，且与文件名一致
+> 3. 除入口件之外，其它的.php文件必须只有一个类，不能有可执行的代码
+
+[EasyPHP](http://www.easyphp.org) 
 
 -------
 
