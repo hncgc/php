@@ -27,6 +27,7 @@
 -------------------
 
 [PHP 手册](http://php.net/manual/zh/index.php)  
+http://www.php.net/manual/zh/  
 
 [PHP 函数参考](http://php.net/manual/zh/funcref.php)  
 
@@ -49,7 +50,15 @@ http://www.php-fig.org/
 
 [php完全自学手册](http://www.php.cn/course/25.html)  
 
+[PHP 教程 | W3School](http://www.w3school.com.cn/php/)  
+
 [PHP 教程 | 菜鸟教程](http://www.runoob.com/php/php-tutorial.html)  
+
+[php 教程 | 第1PHP社区](https://school.php1.cn/)  
+
+[PHP 教程 | 中文网](http://www.php.cn/php/php-tutorial.html)  
+
+[PHP 视频教程 | 中文网](http://www.php.cn/course.html)  
 
 [env环境设置类](https://github.com/vlucas/phpdotenv)  
 
