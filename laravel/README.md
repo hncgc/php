@@ -557,4 +557,14 @@ Laravel5.3初步使用
 [基于Laravel开发的CMS](https://blog.csdn.net/baochao95/article/details/72588461)  
 > Github: https://github.com/webbc/laravelcms
 
+------------
+ 
+### Laravel 数据库
+
+[[ Laravel 5.3 文档 ] 数据库 —— 起步](http://laravelacademy.org/post/6133.html)  
+
+[[ Laravel 5.6 文档 ] 数据库操作 —— 快速入门](http://laravelacademy.org/post/8830.html)  
+
+[[ Laravel 5.6 文档 ] 数据库操作 —— 查询构建器](http://laravelacademy.org/post/8834.html)  
+
 
