@@ -74,3 +74,34 @@ C:\laragon\www
 λ
 ```
 
+将本地项目提交到Github:
+```
+在Github.com建立空的仓库 thinkphp51
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/hncgc/thinkphp51.git
+git push -u origin master
+
+Administrator@PC-201607311213 MINGW64 /c/laragon/www/tp5
+$ git init
+Initialized empty Git repository in C:/laragon/www/tp5/.git/
+
+Administrator@PC-201607311213 MINGW64 /c/laragon/www/tp5 (master)
+$ git add .
+......
+Administrator@PC-201607311213 MINGW64 /c/laragon/www/tp5 (master)
+$ git commit -m "first commit"
+......
+Administrator@PC-201607311213 MINGW64 /c/laragon/www/tp5 (master)
+$ git remote add origin https://github.com/hncgc/thinkphp51.git
+
+Administrator@PC-201607311213 MINGW64 /c/laragon/www/tp5 (master)
+$ git push -u origin master
+......
+Administrator@PC-201607311213 MINGW64 /c/laragon/www/tp5 (master)
+$
+
+```
+
