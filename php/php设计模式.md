@@ -87,6 +87,65 @@
 
 -----
 
+## 专栏:PHP设计模式 - CSDN博客
+
+[专栏:PHP设计模式 目录](https://blog.csdn.net/column/details/phpdesign.html)  
+
+[PHP设计模式——概述](https://blog.csdn.net/jhq0113/article/details/44906491)  
+
+[PHP设计模式——六大原则](https://blog.csdn.net/jhq0113/article/details/44907029)  
+
+[PHP设计模式——简单工厂](https://blog.csdn.net/jhq0113/article/details/44966925)  
+
+[PHP设计模式——工厂方法](https://blog.csdn.net/jhq0113/article/details/45082119)  
+
+[PHP设计模式——抽象工厂](https://blog.csdn.net/jhq0113/article/details/45131443)  
+
+[PHP设计模式——单例模式](http://blog.csdn.net/jhq0113/article/details/45177171)  
+
+[PHP设计模式——建造者模式](http://blog.csdn.net/jhq0113/article/details/45268743)  
+
+[PHP设计模式——原型模式](http://blog.csdn.net/jhq0113/article/details/45274071)  
+
+[PHP设计模式——适配器模式](http://blog.csdn.net/jhq0113/article/details/45287683)  
+
+[PHP设计模式——桥接模式](http://blog.csdn.net/jhq0113/article/details/45441793)  
+
+[PHP设计模式——组合器模式](http://blog.csdn.net/jhq0113/article/details/45442747)  
+
+[PHP设计模式——装饰器模式](http://blog.csdn.net/jhq0113/article/details/45458133)  
+
+[PHP设计模式——门面模式](http://blog.csdn.net/jhq0113/article/details/45766991)  
+
+[PHP设计模式——享元模式](http://blog.csdn.net/jhq0113/article/details/45767587)  
+
+[PHP设计模式——代理模式](http://blog.csdn.net/jhq0113/article/details/45769989)  
+
+[PHP设计模式——策略模式](http://blog.csdn.net/jhq0113/article/details/45771863)  
+
+[PHP设计模式——解释器模式](http://blog.csdn.net/jhq0113/article/details/46291919)  
+
+[PHP设计模式——观察者模式](http://blog.csdn.net/jhq0113/article/details/46352145)  
+
+[PHP设计模式——命令模式](http://blog.csdn.net/jhq0113/article/details/46367069)  
+
+[PHP设计模式——迭代器模式](http://blog.csdn.net/jhq0113/article/details/46418697)  
+
+[PHP设计模式——中介者模式](http://blog.csdn.net/jhq0113/article/details/46432055)  
+
+[PHP设计模式——备忘录模式](http://blog.csdn.net/jhq0113/article/details/46438735)  
+
+[PHP设计模式——状态模式](http://blog.csdn.net/jhq0113/article/details/46439127)  
+
+[PHP设计模式——模板模式](http://blog.csdn.net/jhq0113/article/details/46439683)  
+
+[PHP设计模式——访问者模式](http://blog.csdn.net/jhq0113/article/details/46453949)  
+
+[PHP设计模式——职责链模式](http://blog.csdn.net/jhq0113/article/details/46454419)  
+
+
+-----
+
 [Laravel 中管道设计模式的使用 —— 中间件实现原理探究](http://laravelacademy.org/post/3088.html)  
 
 [在 Laravel 5 中使用 Repository 模式实现业务逻辑和数据访问的分离](http://laravelacademy.org/post/3063.html)  
