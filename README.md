@@ -76,12 +76,14 @@ php -S localhost:8000
 
 ------------------------------
 
+## PHP 设计模式
+
 [PHP 设计模式目录](http://laravelacademy.org/resources/design-patterns)  
 
 [PHP 设计模式系列 —— 概述及常用设计模式大全](http://laravelacademy.org/post/2465.html)  
 
-创建型
----
+### 创建型
+
 
 [PHP 设计模式系列 —— 原型模式（Prototype）](http://laravelacademy.org/post/2546.html)  
 
