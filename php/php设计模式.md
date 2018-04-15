@@ -153,6 +153,8 @@
 
 [大话PHP设计模式（视频）](https://www.imooc.com/learn/236)  
 
+大话PHP设计模式课程源码:[下载](https://img.mukewang.com/down/54f3d6f40001eb2800000000.zip)  
+
 > 5.2 增加自动加载类
 > 5.3 增加命名空间
 ### PSR-0规范  
