@@ -169,3 +169,4 @@
 
 [16个PHP设计模式详解](https://www.jianshu.com/p/5a2822e73aae)  
 
+[《PHP设计模式》_百度百科](https://baike.baidu.com/item/PHP%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/6982283?fr=aladdin)  
