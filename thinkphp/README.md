@@ -72,6 +72,13 @@ Generating autoload files
 
 C:\laragon\www
 λ
+-----
+浏览器：http://localhost/tp5/public/index.php
+:)
+ThinkPHP V5.1
+12载初心不改（2006-2018） - 你值得信赖的PHP框架
+
+
 ```
 
 将本地项目提交到Github:
