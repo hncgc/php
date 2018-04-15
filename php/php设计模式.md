@@ -162,3 +162,10 @@
 
 [EasyPHP](http://www.easyphp.org) 
 
+-----
+
+
+[五种常见的 PHP 设计模式](https://www.ibm.com/developerworks/cn/opensource/os-php-designptrns/)  
+
+[16个PHP设计模式详解](https://www.jianshu.com/p/5a2822e73aae)  
+
