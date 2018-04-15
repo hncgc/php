@@ -2,23 +2,23 @@
 
 ## php资源
 
-[Yii](https://github.com/hncgc/php/blob/master/yii.md)  
+[Yii](https://github.com/hncgc/php/blob/master/yii/README.md)  
 
-[Thinkphp](https://github.com/hncgc/php/blob/master/thinkphp.md)  
+[Thinkphp](https://github.com/hncgc/php/blob/master/thinkphp/README.md)  
 
-[Laravel](https://github.com/hncgc/php/blob/master/Laravel.md)  
+[Laravel](https://github.com/hncgc/php/blob/master/laravel/README.md)  
 
-[Lumen](https://github.com/hncgc/php/blob/master/Lumen.md)  
+[Lumen](https://github.com/hncgc/php/blob/master/laravel/Lumen.md)  
 
 [Ubuntu](https://github.com/hncgc/php/blob/master/Ubuntu.md)  
 
-[PhpStorm](https://github.com/hncgc/php/blob/master/PhpStorm.md)  
+[PhpStorm](https://github.com/hncgc/php/blob/master/PhpIDE/PhpStorm.md)  
 
 [Laragon](https://github.com/hncgc/php/blob/master/Laragon.md)  
 
 [Composer](https://github.com/hncgc/php/blob/master/Composer.md)  
 
-[Mysql](https://github.com/hncgc/php/blob/master/Mysql.md)  
+[Mysql](https://github.com/hncgc/php/blob/master/mysql/README.md)  
 
 [Vuejs](https://github.com/hncgc/php/blob/master/Vuejs.md)  
 

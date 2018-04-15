@@ -65,7 +65,7 @@ Laravel视频教程
 
 ------
 
-[Laravel基础学习笔记 原创](https://github.com/hncgc/php/blob/master/Laravel%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)  
+[Laravel基础学习笔记 原创](https://github.com/hncgc/php/blob/master/laravel/Laravel%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)  
 
 ------
 
