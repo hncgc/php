@@ -10,8 +10,9 @@
 
 
 Composer安装ThinkPHP  
+---
 
-Composer全局安装：使composer命名在任何目录下都可以使用  
+- Composer全局安装：使composer命名在任何目录下都可以使用  
 
     Composer中文网：http://www.phpcomposer.com
     在Composer中文网选择“入门指南” -> 全局安装（on OSX）
@@ -19,7 +20,7 @@ Composer全局安装：使composer命名在任何目录下都可以使用
         使用安装程序
         手动安装
         
-安装中国全量镜像：大幅提升国内访问速度  
+- 安装中国全量镜像：大幅提升国内访问速度  
 
     在Composer中文网选择“中国镜像”
     打开https://pkg.phpcomposer.com/
@@ -38,7 +39,7 @@ Composer全局安装：使composer命名在任何目录下都可以使用
         }
     }
 
-搜索ThinkPHP安装包：https://packagist.org  
+- 搜索ThinkPHP安装包：https://packagist.org  
 
     在Composer中文网点击“安装包列表”打开https://packagist.org/，搜索“topthink”
     最新为“topthink/think”,单击链接打开后有安装命令：
@@ -46,7 +47,7 @@ Composer全局安装：使composer命名在任何目录下都可以使用
     在www下建立目录tp5,终端中运行：
     composer create-project topthink/think tp5
     
-创建虚拟主机：必须将访问入口解析到public目录下  
+- 创建虚拟主机：必须将访问入口解析到public目录下  
 
     127.0.0.1 tp5.com
     
