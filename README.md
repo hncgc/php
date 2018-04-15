@@ -82,8 +82,8 @@ php -S localhost:8000
 
 [PHP 设计模式系列 —— 概述及常用设计模式大全](http://laravelacademy.org/post/2465.html)  
 
-### 创建型
-
+创建型
+---
 
 [PHP 设计模式系列 —— 原型模式（Prototype）](http://laravelacademy.org/post/2546.html)  
 
@@ -137,7 +137,7 @@ php -S localhost:8000
 
 [PHP 设计模式系列 —— 中介者模式（Mediator）](http://laravelacademy.org/post/2894.html)  
 
-[PHP 设计模式系列 —— 备忘录模式（Memento）]](http://laravelacademy.org/post/2903.html)  
+[PHP 设计模式系列 —— 备忘录模式（Memento）](http://laravelacademy.org/post/2903.html)  
 
 [PHP 设计模式系列 —— 空对象模式（Null Object）](http://laravelacademy.org/post/2912.html)  
 
@@ -161,6 +161,8 @@ php -S localhost:8000
 [PHP 设计模式系列 —— 服务定位器模式（Service Locator）](http://laravelacademy.org/post/2820.html)  
 
 [PHP 设计模式系列 —— 资源库模式（Repository）](http://laravelacademy.org/post/3053.html)  
+
+-----
 
 [Laravel 中管道设计模式的使用 —— 中间件实现原理探究](http://laravelacademy.org/post/3088.html)  
 
