@@ -92,7 +92,25 @@ php -S localhost:8000
 
 ------------------------------
 
+EasyPHP
+---
+
 [EasyPHP 绿色软件](http://www.easyphp.org)  
+
+[PHP语言集成开发环境 EasyPHP 17.0](http://www.oyksoft.com/soft/8914.html)  
+
+[easyphp使用教程](https://www.kafan.cn/edu/66891642.html)  
+
+[EasyPHP Devserver PHP集成环境安装指南](https://blog.csdn.net/example440982/article/details/79074735)  
+
+[用Easyphp搭建服务器后让局域网中其他电脑访问网站的方法](https://blog.csdn.net/gsnet/article/details/8614279)  
+```
+第一步：将easyphp中的httpd.conf文件里的Listen 127.0.0.1:80，修改为Listen 80。然后重启easyphp。
+
+第二步：防火墙设置为允许局域网中其他电脑访问，把杀毒软件之类的关闭。
+
+第三步：在其他电脑浏览器里输入该电脑的IP即可访问。
+```
 
 ----------------------------
 
@@ -199,6 +217,7 @@ php -S localhost:8000
 > 3. 除入口件之外，其它的.php文件必须只有一个类，不能有可执行的代码
 
 [EasyPHP](http://www.easyphp.org) 
+
 
 -------
 
