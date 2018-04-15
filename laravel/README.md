@@ -65,6 +65,12 @@ Laravel视频教程
 
 [轻松学会Laravel-基础篇](http://www.php.cn/course/282.html)  
 
+[Laravel5.2博客实战视频教程](http://www.php.cn/course/283.html)  
+
+[Laravel5.4电商实战视频教程](http://www.php.cn/course/729.html)  
+
+[全方位解读Laravel框架及实战视频教程](http://www.php.cn/course/633.html)  
+
 ------
 
 [Laravel基础学习笔记 原创](https://github.com/hncgc/php/blob/master/laravel/Laravel%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)  
