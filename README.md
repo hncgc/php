@@ -197,7 +197,11 @@ https://www.jianshu.com/p/e68ca5c58501
 
 [Bootstrap](https://github.com/hncgc/php/blob/master/Bootstrap.md)  
 
+------
 
+[技术主题-IBM](https://www.ibm.com/developerworks/cn/topics/)  
+
+[区块链和 HyperLedger 系列课程（共十讲）](https://www.ibm.com/developerworks/community/blogs/3302cc3b-074e-44da-90b1-5055f1dc0d9c/entry/opentech-blockchain?lang=zh) 
 
 
 
