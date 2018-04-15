@@ -63,6 +63,8 @@ Laravel视频教程
 
 [[慕课网]轻松学会Laravel-表单篇(视频)](http://www.imooc.com/learn/699)  
 
+[轻松学会Laravel-基础篇](http://www.php.cn/course/282.html)  
+
 ------
 
 [Laravel基础学习笔记 原创](https://github.com/hncgc/php/blob/master/laravel/Laravel%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)  
