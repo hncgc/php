@@ -92,7 +92,7 @@ php -S localhost:8000
 
 ------------------------------
 
-[EasyPHP](http://www.easyphp.org)  
+[EasyPHP 绿色软件](http://www.easyphp.org)  
 
 ----------------------------
 
