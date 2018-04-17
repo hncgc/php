@@ -46,6 +46,29 @@ http://www.php.net/manual/zh/
 [PHP 标准规范中文版](https://psr.phphub.org/)  
 http://www.php-fig.org/ 
 
+## PSR
+
+[PHP编码规范（中文版）导读](https://www.kancloud.cn/thinkphp/php-fig-psr/3139) 
+https://github.com/PizzaLiu/PHP-FIG   
+
+[PSR-0 已被弃用](https://github.com/PizzaLiu/PHP-FIG/blob/master/PSR-0-cn.md)  
+
+[PSR-1 基本代码规范](https://www.kancloud.cn/thinkphp/php-fig-psr/3140)  
+
+[PSR-2 代码风格规范](https://www.kancloud.cn/thinkphp/php-fig-psr/3141)  
+
+[PSR-2-1 补充文档](https://www.kancloud.cn/thinkphp/php-fig-psr/3142)  
+
+[PSR-3 日志接口规范](https://www.kancloud.cn/thinkphp/php-fig-psr/3143)  
+
+[PSR-4 自动载入](https://www.kancloud.cn/thinkphp/php-fig-psr/3144)  
+
+[PSR规范](https://blog.csdn.net/zhengwish/article/details/51734083)  
+
+[laravel之PSR规范](https://blog.csdn.net/a454213722/article/details/59584397)  
+
+-----
+
 [PHP必读](https://laravel-china.github.io/php-the-right-way/)  
 
 [php完全自学手册](http://www.php.cn/course/25.html)  
