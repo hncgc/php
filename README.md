@@ -125,18 +125,6 @@ php -S localhost:8000
 ```
 
 ------------------------------
- PHPStorm
- ---
-[phpstorm使用教程](https://www.cnblogs.com/caicaizi/p/5145354.html)  
-
-[PHPstorm破解方法](http://www.php.cn/php-weizijiaocheng-381903.html)  
-win版下载地址：http://www.php.cn/xiazai/gongju/122  
-
-[phpstorm常用快捷键大全](http://www.php.cn/php-weizijiaocheng-381749.html)  
-
-[有关PhpStorm安装和使用的文章推荐](http://www.php.cn/php-weizijiaocheng-365979.html)  
-
-[JetBrains phpStorm 2018破解版](http://www.3322.cc/soft/37625.html)  
 
 EasyPHP
 ---
