@@ -1,6 +1,18 @@
 PhpStorm
 ---
 
+[phpstorm使用教程](https://www.cnblogs.com/caicaizi/p/5145354.html)  
+
+[PHPstorm破解方法](http://www.php.cn/php-weizijiaocheng-381903.html)  
+win版下载地址：http://www.php.cn/xiazai/gongju/122  
+
+[phpstorm常用快捷键大全](http://www.php.cn/php-weizijiaocheng-381749.html)  
+
+[有关PhpStorm安装和使用的文章推荐](http://www.php.cn/php-weizijiaocheng-365979.html)  
+
+[JetBrains phpStorm 2018破解版](http://www.3322.cc/soft/37625.html)  
+
+
 [PhpStorm 2017.3.6 (强大的PHP开发环境) 附注册方法](http://www.oyksoft.com/soft/40722.html?pc=1)  
 ```
 phpstorm已经升级到2017.3.6，原注册码失效，2017.3.5注册方法：
