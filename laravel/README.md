@@ -78,11 +78,14 @@ Laravel视频教程
 ------
 
 [Laravel教程 一：安装及环境配置](https://www.codecasts.com/blog/post/programming-with-laravel-5-installation-and-settings)  
+https://www.cnblogs.com/php-linux/p/6002657.html  
 https://laravist.com/article/9  
 
 
 [Laravel教程 二：路由,视图,控制器工作流程](https://www.codecasts.com/blog/post/programming-with-laravel-5-routers-views-controllers-workflow)  
+https://www.cnblogs.com/php-linux/p/6002656.html  
 https://laravist.com/article/10  
+
 
 
 [Laravel教程 三：视图变量传递和Blade](https://www.codecasts.com/blog/post/programming-with-laravel-5-blade-views-with-var)  
